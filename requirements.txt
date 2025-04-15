@@ -1,0 +1,11 @@
+chromadb
+faiss-cpu
+langchain
+jupyterlab
+sentence-transformers
+torch==2.2.2
+torchaudio==2.2.2
+torchvision==0.17.2
+pandas
+numpy
+mcp @ git+https://github.com/modelcontextprotocol/python-sdk.git
