@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2025-04-16T02:25:50.230094",
+    "query": "elderly patient in ICU with respiratory issues and chest infiltrates",
+    "summary": "The patient is a 42-year-old male who presents with symptoms of persistent headaches, nausea, and blurred vision. He also mentions occasional vomiting and sensitivity to light. His medical history includes hypertension and type 2 diabetes. A recent MRI scan shows a lesion in the left parietal lobe, which may be indicative of a brain tumor. Further diagnostic tests are required for confirmation and to determine the nature and severity of the condition.",
+    "diagnoses": "## Possible Diagnoses:\n\n**1. Glioblastoma:**\n- Consistent with persistent headaches, nausea, blurred vision, vomiting, and light sensitivity.\n- Lesion in the left parietal lobe is common for glioblastoma.\n\n\n**2. Meningioma:**\n- Symptoms are similar to glioblastoma.\n- Lesion in the left parietal lobe is possible.\n\n\n**3. Brain Tumor (other type):**\n- Symptoms are consistent with a tumor in the left parietal lobe.\n- Further tests needed to determine the subtype and grade of the tumor.\n\n\n**4. Craniopathy:**\n- Symptoms like headaches and nausea can be associated with structural abnormalities in the brain.\n- Further investigation needed to rule out other potential causes of the lesion.",
+    "feedback_score": 0.5
+  }
+]
