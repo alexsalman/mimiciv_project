@@ -5,5 +5,19 @@
     "summary": "The patient is a 42-year-old male who presents with symptoms of persistent headaches, nausea, and blurred vision. He also mentions occasional vomiting and sensitivity to light. His medical history includes hypertension and type 2 diabetes. A recent MRI scan shows a lesion in the left parietal lobe, which may be indicative of a brain tumor. Further diagnostic tests are required for confirmation and to determine the nature and severity of the condition.",
     "diagnoses": "## Possible Diagnoses:\n\n**1. Glioblastoma:**\n- Consistent with persistent headaches, nausea, blurred vision, vomiting, and light sensitivity.\n- Lesion in the left parietal lobe is common for glioblastoma.\n\n\n**2. Meningioma:**\n- Symptoms are similar to glioblastoma.\n- Lesion in the left parietal lobe is possible.\n\n\n**3. Brain Tumor (other type):**\n- Symptoms are consistent with a tumor in the left parietal lobe.\n- Further tests needed to determine the subtype and grade of the tumor.\n\n\n**4. Craniopathy:**\n- Symptoms like headaches and nausea can be associated with structural abnormalities in the brain.\n- Further investigation needed to rule out other potential causes of the lesion.",
     "feedback_score": 0.5
+  },
+  {
+    "timestamp": "2025-04-22T16:01:18.172909",
+    "query": "elderly patient with shortness of breath and chest X-ray showing infiltrates",
+    "summary": "Subject ID with hadm_id XYZ presents with a history of hypertension, type 2 diabetes mellitus, and chronic obstructive pulmonary disease (COPD). They are currently hospitalized due to an acute exacerbation of COPD with symptoms including increased shortness of breath, cough, and sputum production. In addition, the patient has been experiencing hypoxemia and requires supplemental oxygen. Their blood glucose levels have also been uncontrolled. Further investigations are required to assess their overall condition, and appropriate management is ongoing based on their current status.",
+    "diagnoses": "- **Acute exacerbation of COPD:** Consistent with the patient's symptoms, respiratory distress, and requirement for supplemental oxygen.\n- **Hypoglycemia:** Uncontrolled blood glucose levels suggest the possibility of hypoglycemia.\n- **Pneumonia:** Uncontrolled hypoglycemia can predispose to the development of pneumonia.\n- **Pneumatic complications of COPD:** Exacerbated COPD can progress to severe complications such as pneumothorax or pneumoperitoneum.",
+    "feedback_score": 0.5
+  },
+  {
+    "timestamp": "2025-04-22T16:34:40.969939",
+    "query": "elderly patient with shortness of breath and chest X-ray showing infiltrates",
+    "summary": "Subject ID with hadm_id XYZ presents with a history of hypertension, type 2 diabetes mellitus, and coronary artery disease. The patient was admitted for an acute myocardial infarction (AMI) with ST-elevation on electrocardiogram (ECG). On admission, the patient reported chest pain and shortness of breath. Blood tests revealed elevated cardiac enzymes indicating myocardial damage. The patient received immediate treatment for AMI including thrombolysis and is currently being monitored in the intensive care unit (ICU) for any complications related to the AMI or underlying conditions.",
+    "diagnoses": "- **Acute myocardial infarction (AMI)**: Consistent with the patient's symptoms, ECG findings, and elevated cardiac enzymes.\n\n\n- **Coronary artery disease (CAD)**: Underlying risk factor for AMI based on the patient's history.\n\n\n- **Cardiovascular complications**: Potential for complications related to the AMI, such as ventricular fibrillation, cardiogenic shock, or heart failure.\n\n\n- **Pneumonia**: Elevated cardiac enzymes can sometimes indicate underlying pneumonia, which should be ruled out with further clinical evaluation.",
+    "feedback_score": 0.4
   }
 ]

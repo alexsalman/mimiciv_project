@@ -1,6 +1,7 @@
 # agents/master_agent.py
 
 from utils.feedback_logger import log_feedback
+from utils.scoring_utils import compute_feedback_score
 from agents.retrieval_agent import RetrievalAgent
 from agents.summarization_agent import SummarizationAgent
 from agents.diagnosis_agent import DiagnosisAgent
@@ -14,7 +15,7 @@ class MasterAgent:
     def handle_query(self, query: str):
         print("\n🔍 Retrieving relevant patient records...")
         retrieved = self.retrieval_agent.retrieve(query, k=2)
-        text = " ".join(retrieved['documents'][0])
+        text = " ".join(retrieved[0]) if retrieved else "No data retrieved."
 
         print("\n📝 Summarizing patient data...")
         summary = self.summarizer.summarize(text)
@@ -25,7 +26,7 @@ class MasterAgent:
         print(diagnoses)
 
         # 🧠 Basic feedback score logic
-        feedback_score = 1.0 if "diagnosis" in diagnoses.lower() else 0.5
+        feedback_score = compute_feedback_score(diagnoses)
         
         log_feedback(query, summary, diagnoses, feedback_score)
 
