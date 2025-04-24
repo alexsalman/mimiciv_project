@@ -1,4 +1,4 @@
-# agents/test_retrieval_agent.py
+# tests/test_retrieval_agent.py
 
 from agents.retrieval_agent import RetrievalAgent
 

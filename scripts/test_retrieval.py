@@ -31,5 +31,6 @@ for patient in patients:
 agent = RetrievalAgent()
 results = agent.retrieve("breathing problem and ICU", k=2)
 
-for r in results['documents'][0]:
-    print("Retrieved:", r)
+for doc in results:
+    print(doc)   # since `retrieve()` returns a list of dicts
+

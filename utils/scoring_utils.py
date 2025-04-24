@@ -1,16 +1,34 @@
 # utils/scoring_utils.py
 
-def compute_feedback_score(diagnoses: str, icd_keywords_path="data/processed/icd_keywords.txt") -> float:
-    """
-    Computes a basic feedback score based on whether the diagnosis output contains known ICD keyword phrases.
-    """
-    try:
-        with open(icd_keywords_path, "r") as f:
-            keywords = set([line.strip().lower() for line in f.readlines()])
-    except FileNotFoundError:
-        print(f"⚠️ ICD keywords file not found at: {icd_keywords_path}")
-        return 0.5  # Default score
+from typing import Dict
 
-    found = sum(1 for kw in keywords if kw in diagnoses.lower())
-    score = min(1.0, found / 5) if found else 0.5
-    return round(score, 2)
+# Hard‐coded weights for core clinical conditions
+WEIGHT_MAP: Dict[str, float] = {
+    "acute myocardial infarction":       1.0,
+    "ami":                               1.0,
+    "copd exacerbation":                0.6,
+    "hypertension":                     0.1,
+    "cad":                               0.5,
+    # New entries:
+    "pneumonia":                         0.7,
+    "community-acquired pneumonia":      0.8,
+    "sepsis":                            1.0,
+    "acute respiratory distress":        0.8,
+    "ards":                              0.8,
+    "respiratory failure":               0.6,
+}
+
+def compute_feedback_score(diagnoses: str) -> float:
+    """
+    Scan the diagnoses text for known keywords/acronyms, sum their weights,
+    cap at 1.0, and enforce a floor of 0.1 if nothing matches.
+    """
+    text = diagnoses.lower()
+    score = 0.0
+    for key, wt in WEIGHT_MAP.items():
+        if key in text:
+            score += wt
+
+    if score <= 0:
+        return 0.1
+    return round(min(score, 1.0), 3)

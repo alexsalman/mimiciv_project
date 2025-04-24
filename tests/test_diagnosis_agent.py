@@ -1,4 +1,4 @@
-# agents/test_diagnosis_agent.py
+# tests/test_diagnosis_agent.py
 
 from agents.diagnosis_agent import DiagnosisAgent
 

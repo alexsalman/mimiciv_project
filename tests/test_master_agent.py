@@ -1,4 +1,4 @@
-# agents/test_master_agent.py
+# tests/test_master_agent.py
 
 from agents.master_agent import MasterAgent
 

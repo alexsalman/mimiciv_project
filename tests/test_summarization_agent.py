@@ -1,4 +1,4 @@
-# agents/test_summarization_agent.py
+# tests/test_summarization_agent.py
 
 from agents.summarization_agent import SummarizationAgent
 

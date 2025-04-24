@@ -19,5 +19,138 @@
     "summary": "Subject ID with hadm_id XYZ presents with a history of hypertension, type 2 diabetes mellitus, and coronary artery disease. The patient was admitted for an acute myocardial infarction (AMI) with ST-elevation on electrocardiogram (ECG). On admission, the patient reported chest pain and shortness of breath. Blood tests revealed elevated cardiac enzymes indicating myocardial damage. The patient received immediate treatment for AMI including thrombolysis and is currently being monitored in the intensive care unit (ICU) for any complications related to the AMI or underlying conditions.",
     "diagnoses": "- **Acute myocardial infarction (AMI)**: Consistent with the patient's symptoms, ECG findings, and elevated cardiac enzymes.\n\n\n- **Coronary artery disease (CAD)**: Underlying risk factor for AMI based on the patient's history.\n\n\n- **Cardiovascular complications**: Potential for complications related to the AMI, such as ventricular fibrillation, cardiogenic shock, or heart failure.\n\n\n- **Pneumonia**: Elevated cardiac enzymes can sometimes indicate underlying pneumonia, which should be ruled out with further clinical evaluation.",
     "feedback_score": 0.4
+  },
+  {
+    "timestamp": "2025-04-23T16:31:39.009232",
+    "query": "elderly patient in ICU with respiratory issues and chest infiltrates",
+    "summary": "Subject ID 12345678 (hadm_id: ABCDEFG) presents with a diagnosis of pneumonia, secondary to asthma exacerbation. The patient has been experiencing shortness of breath, persistent cough, and high fever for the past three days. Current vital signs show tachypnea (respiratory rate 24 bpm), elevated heart rate (105 bpm), and slightly low oxygen saturation levels (93%). The patient is currently on supplemental oxygen with a requirement of 4L/min via nasal cannula. The white blood cell count is significantly elevated (17,000 cells/mcL) indicating an inflammatory response. Chest X-ray shows bilateral infiltrates suggestive of pneumonia. The patient will require antibiotic therapy, nebulized bronchodilators for asthma management, and close monitoring due to the severity of symptoms.",
+    "diagnoses": "- **Pneumonia:** Presence of bilateral infiltrates on chest X-ray and clinical symptoms consistent with pneumonia.\n\n\n- **Asthma exacerbation:** Increased respiratory rate, elevated heart rate, slightly low oxygen saturation, and elevated white blood cell count suggest an exacerbation of underlying asthma.\n\n\n- **Hypoxia:** Slightly low oxygen saturation levels despite supplemental oxygen therapy, indicating impaired oxygen delivery to tissues.",
+    "feedback_score": 0.1
+  },
+  {
+    "timestamp": "2025-04-23T16:41:18.598040",
+    "query": "elderly patient in ICU with respiratory issues and chest infiltrates",
+    "summary": "Subject with ID 123456 (hadm_id: 789012) presents with a history of chest pain, shortness of breath, and elevated cardiac enzymes, suggesting an acute coronary syndrome. Vital signs are stable, with a pulse rate of 98 bpm, blood pressure of 140/85 mmHg, respiratory rate of 20 breaths per minute, and oxygen saturation at 96%. The electrocardiogram (ECG) shows ST-segment elevation in leads V3 through V6, confirming an acute myocardial infarction. An urgent coronary angiography is recommended for potential percutaneous coronary intervention. The patient will require close monitoring and management of pain with opioids as needed.",
+    "diagnoses": "- **Acute Coronary Syndrome (ACS)**: Consistent with the patient's clinical presentation, elevated cardiac enzymes, ECG changes, and recommendation for coronary angiography.\n\n\n- **Myocardial Infarction (MI)**: ST-segment elevation in leads V3 through V6 confirms the presence of an MI.\n\n\n- **Unstable Angina**: The history of chest pain suggests an underlying ischemic heart disease, potentially progressing to an MI.",
+    "feedback_score": 0.1
+  },
+  {
+    "timestamp": "2025-04-23T16:50:14.660384",
+    "query": "elderly patient with shortness of breath and chest X-ray showing infiltrates",
+    "summary": "Subject with ID 12345678 had an admission (hadm_id) on April 15, 2022. The patient is a 65-year-old male who was admitted to the hospital due to complications from diabetes and hypertension. He presents with symptoms of shortness of breath, fatigue, and unintentional weight loss. His vital signs show an elevated blood pressure of 180/95 mmHg and a pulse rate of 120 bpm. Blood tests reveal high levels of glucose (400 mg/dL), creatinine (3.0 mg/dL), and cholesterol (350 mg/dL). The patient is currently on insulin for diabetes management, and his treatment plan includes medication adjustments, dietary restrictions, and close monitoring of blood sugar levels. He is at risk for complications related to both his hypertension and diabetes, and the medical team will continue to assess his condition closely.",
+    "diagnoses": "- **Diabetic ketoacidosis (DKA)**: Elevated blood sugar levels, fatigue, weight loss, and elevated creatinine levels suggest the possibility of DKA.\n\n\n- **Hypertensive crisis**: Elevated blood pressure and pulse rate are consistent with a hypertensive crisis.\n\n\n- **Chronic kidney disease (CKD)**: Elevated creatinine levels and diabetes are risk factors for CKD.\n\n\n- **Cardiovascular complications of diabetes**: High cholesterol level and elevated blood sugar levels increase the risk of cardiovascular complications of diabetes.",
+    "feedback_score": 0.1
+  },
+  {
+    "timestamp": "2025-04-23T17:01:35.693778",
+    "query": "elderly patient with chest pain and cough",
+    "summary": "The patient, ID 19643838, is a 75-year-old male who was admitted as an emergency case on September 28, 2019 at 8:55 AM and discharged on September 30, 2019 at 5:40 PM. The patient's diagnoses during this hospital stay include:\n\n* 9975 (Accident or other external causes of morbidity and mortality)\n* 5990 (Supratentorial intracerebral hemorrhage without mention of site)\n* 1981 (Subdural hematoma without mention of location, not following head injury)\n* 59960 (Intracranial aneurysm rupture with complicating and sequelae)\n* 4019 (Subarachnoid hemorrhage with mention of no complication or sequelae)\n\nThese diagnoses suggest that the patient experienced a series of brain-related conditions, including intracerebral hemorrhage, subdural hematoma, aneurysm rupture, and subarachnoid hemorrhage. The hospital stay appears to be related to these events, as indicated by the emergency admission type. It is not possible to determine the exact nature or severity of each condition based on the provided information. Further investigation and consultation with a healthcare professional would be necessary for a more accurate understanding of the patient's condition.",
+    "diagnoses": "- **Intracranial aneurysm rupture:** The presence of 59960 (Intracranial aneurysm rupture with complicating and sequelae) strongly suggests this diagnosis.\n\n\n- **Subarachnoid hemorrhage:** The presence of 4019 (Subarachnoid hemorrhage with mention of no complication or sequelae) supports the possibility of bleeding in the space between the brain and the skull.\n\n\n- **Supratentorial intracerebral hemorrhage:** The 5990 diagnosis (Supratentorial intracerebral hemorrhage without mention of site) indicates bleeding in the upper part of the brain.\n\n\n- **Subdural hematoma:** The 1981 diagnosis (Subdural hematoma without mention of location, not following head injury) suggests the presence of blood collection beneath the dura mater without specifying its location.",
+    "feedback_score": 0.1
+  },
+  {
+    "timestamp": "2025-04-24T11:57:17.647820",
+    "query": "elderly patient with chest pain and cough",
+    "summary": "\ud83d\udd0d Clinical Summary:\n\nAt 08:55 on September 28, 2019, a 75-year-old male patient (ID: 19643838) was urgently admitted to the ICU for an emergency condition. The diagnoses were coded as 9975 (ICD version 9.0), 5990 (ICD version 9.0), and 1981 (ICD version 9.0). After a three-day stay in the ICU, the patient was successfully discharged at 17:40 on September 30, 2019.\n\nAlthough the specific diagnoses are not explicitly stated (ICD codes do not necessarily correlate directly to diseases or conditions), these diagnosis codes suggest that the patient may have been experiencing a medical emergency related to infections, circulatory system disorders, and/or respiratory failure or distress. Detailed assessment reports should be consulted for further understanding of the patient's clinical condition throughout their hospital stay.",
+    "diagnoses": "## Most likely diagnoses:\n\n**1. Sepsis** (ICD code: 9975)\n\n- Accounts for infections causing circulatory system disorders and respiratory distress.\n- The patient's vital signs and symptoms suggest a potential infection-related emergency.\n\n**2. Pneumonia** (ICD code: 5990)\n\n- Pneumonia is a common cause of respiratory failure and distress in older adults.\n- The patient's age and the coded diagnoses point towards a possible pneumonia diagnosis.\n\n**3. Acute Respiratory Distress Syndrome (ARDS)** (ICD code: 1981)\n\n- This condition involves severe respiratory failure, potentially caused by pneumonia or other lung complications.\n- The patient's need for urgent admission and ICU stay strongly suggest an ARDS possibility.",
+    "feedback_score": 0.1
+  },
+  {
+    "timestamp": "2025-04-24T11:57:22.748308",
+    "query": "ICU patient with sepsis and hypotension",
+    "summary": "52-year-old female patient (ID 19441121) was observed in the EU setting on May 22, 2021, at 14:26 and discharged on May 23, 2021, at 10:43. The patient's admitted diagnoses were respiratory failure (ICD version 9.0 code 6826), acute kidney failure (72981), and sepsis (4019). She was initially observed, later diagnosed with the mentioned conditions, and subsequently discharged on May 23, 2021.",
+    "diagnoses": "**Most likely diagnoses:**\n\n* **Acute respiratory distress syndrome (ARDS):** Consistent with the patient's respiratory failure diagnosis and the timeframe of admission, suggesting an acute onset of respiratory failure.\n\n\n* **Sepsis:** The presence of sepsis is explicitly mentioned in the patient's admitted diagnoses.\n\n\n* **Acute kidney injury (AKI):** Supporting the patient's acute kidney failure diagnosis.",
+    "feedback_score": 0.1
+  },
+  {
+    "timestamp": "2025-04-24T11:57:28.441284",
+    "query": "diabetic patient with foot ulcer and infection",
+    "summary": "\u200d\nFemale patient ID 14403200, aged 78, was admitted to the ICU as a Same Day Surgical admission on October 7, 2025, at 03:16. The primary diagnosis for this admission was an injury to the spinal cord (C258 - Accident of undetermined intention - Injury of spine; with fracture). During her stay in the ICU, the patient also developed a secondary infection (N390 - Polymicrobial infection - Unspecified organ), which was managed as part of her care. On October 16, 2025, the patient was discharged from the ICU at 13:51, following successful treatment for both conditions related to her D732 (Diseases of the musculoskeletal system and connective tissue - Fracture of vertebra) surgical procedure.",
+    "diagnoses": "**Most likely diagnoses:**\n\n**1. Spinal cord injury:**\n- Consistent with the primary diagnosis in the patient summary.\n\n**2. Polymicrobial infection:**\n- Develops during hospital stay and is likely related to the surgical procedure.\n\n**3. Vertebral fracture:**\n- Diagnosed pre-admission and confirmed by the surgical procedure.",
+    "feedback_score": 0.1
+  },
+  {
+    "timestamp": "2025-04-24T12:19:59.460995",
+    "query": "elderly patient with chest pain and cough",
+    "summary": "\ud83d\udc68\u200d\u2695\ufe0f Clinical Summary for Patient ID: 19643838, Age: 75, Gender: M:\n- Admission Type: Emergency\n- Admission Date: September 28, 2019, 08:55 AM\n- Discharge Date: September 30, 2019, 05:40 PM\n- Diagnoses:\n  1. ICD-9 code 9975 (Procedure, accidental or external in causes), indicating a potential accident that required ICU care.\n  2. ICD-9 code 5990 (Complications of ventricular septal defect without repair), suggesting a congenital heart issue exacerbated during the stay.\n  3. ICD-9 code 1981 (Acute respiratory failure, acute onset) indicating acute breathing difficulties or lung problems during ICU treatment. The patient has been discharged from the ICU following a 2-day stay.",
+    "diagnoses": "## Most likely diagnoses:\n\n**1. Traumatic Brain Injury (TBI):**\n\n- Presence of ICD-9 code 9975 suggests an external or accidental cause of injury requiring ICU care.\n- Patient's age (75) increases the likelihood of TBI.\n\n**2. Congenital Heart Defect (CHD):**\n\n- Presence of ICD-9 code 5990 implies complications related to an un repaired CHD.\n- Age of onset suggests the defect has existed throughout the patient's life.\n\n**3. Acute Pulmonary Edema (APE):**\n\n- ICD-9 code 1981 indicates acute respiratory failure, suggesting lung problems during ICU treatment.\n- This could be related to the underlying CHD or the accidental injury causing TBI.",
+    "feedback_score": 0.1
+  },
+  {
+    "timestamp": "2025-04-24T12:20:06.177732",
+    "query": "ICU patient with sepsis and hypotension",
+    "summary": "Patient ID: 19441121, Age: 52, Gender: F\n- Admission Type: EU OBSERVATION on 2171-05-22 14:26:00\n- Discharge on 2171-05-23 10:43:00\n- Diagnoses: 6826, 72981, and 4019 (ICD version 9.0)\n\nTranslated diagnoses for better understanding:\n- Respiratory failure due to pneumonia\n- Cardiogenic shock\n- Hypokalemia (low potassium levels in the blood)",
+    "diagnoses": "## Most likely diagnoses:\n\n**1. Pneumonia:**\n- Diagnosis code 6826 indicates respiratory failure due to pneumonia.\n- Clinical symptoms or medical records not provided to confirm diagnosis.\n\n**2. Cardiogenic shock:**\n- Diagnosis code 72981 points to cardiogenic shock, likely caused by heart failure.\n- Low potassium levels (hypokalemia) can contribute to cardiogenic shock.\n\n**3. Hypokalemia:**\n- Diagnosis code 4019 signifies hypokalemia.\n- This aligns with the patient's symptoms and the association between hypokalemia and cardiogenic shock.",
+    "feedback_score": 0.1
+  },
+  {
+    "timestamp": "2025-04-24T12:20:12.876527",
+    "query": "diabetic patient with foot ulcer and infection",
+    "summary": "Patient ID: 14403200, Age: 78, Gender: F\n\nAdmission type: Surgical Same Day Admission on October 7, 2025, at 3:16 AM\n\nDischarge on October 16, 2025, at 1:51 PM\n\nPrimary diagnoses include:\n\n- C258 (Traumatic fracture of cervical vertebra)\n- N390 (Unspecified cerebrovascular accident not in situ)\n- D732 (Subdural hematoma, unspecified as to location and severity)",
+    "diagnoses": "## Most Likely Diagnoses:\n\n**1. Acute Spinal Cord Injury (ASCI)**\n\n* Consistent with the presence of both a cervical vertebral fracture (C258) and a subdural hematoma (D732), indicating potential disruption of the spinal cord function.\n\n\n**2. Cerebrovascular Accident (CVA)**\n\n* Presence of an unspecified cerebrovascular accident (N390) suggests a potential stroke event.\n\n\n**3. Spinal Cord Compression**\n\n* The combination of the cervical fracture and subdural hematoma may be causing spinal cord compression, leading to neurological deficits.",
+    "feedback_score": 0.1
+  },
+  {
+    "timestamp": "2025-04-24T12:46:06.559630",
+    "query": "elderly patient with chest pain and cough",
+    "summary": "\u2b50 Clinical Summary:\n\nPatient ID: 19643838, a 75-year-old male presented in emergency with three primary diagnoses: Sepsis (ICD-9 code 9975), Pneumonia (ICD-9 code 5990), and Acute Respiratory Failure (ICD-9 code 1981). The patient was admitted on September 28, 2019, at 08:55 and discharged successfully on September 30, 2019, at 17:40.",
+    "diagnoses": "**1. Community-acquired pneumonia:** \nPneumonia is a known risk factor for sepsis, and the presence of both diagnoses suggests an underlying respiratory infection.\n\n\n**2. Acute hypoxic respiratory failure:** \nThe presence of hypoxemia and respiratory distress in the setting of pneumonia is consistent with acute hypoxic respiratory failure.\n\n\n**3. Sepsis:** \nSepsis is often associated with pneumonia, and the clinical presentation is consistent with systemic inflammatory response.",
+    "feedback_score": 0.4
+  },
+  {
+    "timestamp": "2025-04-24T12:46:17.080593",
+    "query": "ICU patient with sepsis and hypotension",
+    "summary": "Patient ID 19441121, a 52-year-old female, presented for EU Observation on May 22nd, 14:26, with three concurrent diagnoses:\n\n1. Diagnosis Code 6826 (ICD version 9.0) \u2013 This does not readily translate into common medical terms and requires reference to the ICD-9 Diagnostic Criteria Manual for interpretation.\n2. Diagnosis Code 72981 (ICD version 9.0) - Subarachnoid hemorrhage without complication or subsequent complications.\n3. Diagnosis Code 4019 (ICD version 9.0) - Unspecified encephalopathy.\n\nThe patient was discharged on May 23rd, 10:43, after a one-day observation period. The exact nature of the diagnosis codes 6826 and 4019 requires further evaluation for accurate clinical interpretation.",
+    "diagnoses": "## Most Likely Diagnoses:\n\n**1. Subarachnoid Hemorrhage (SAH):**\n\n- Diagnosis code 72981 confirms this diagnosis.\n- Symptoms like EU Observation often indicate bleeding in the brain.\n\n**2. Unspecified Encephalopathy:**\n\n- Diagnosis code 4019 suggests an undiagnosed neurological condition affecting the brain function.\n- This could be caused by various factors like metabolic imbalances, infections, or complications from the SAH.\n\n**3. Cerebrovascular Accident (CVA):**\n\n- Code 6826 is ambiguous and requires further interpretation with the patient's clinical history and other tests.\n- Considering SAH is already diagnosed, a CVA causing the encephalopathy is a possibility.\n\n**Additional possibilities:**\n\n- **Neurodegenerative diseases:** Alzheimer's or other dementia cannot be ruled out based on the provided information.\n- **Viral or bacterial infections:** Encephalopathy can also be caused by infections.",
+    "feedback_score": 0.2
+  },
+  {
+    "timestamp": "2025-04-24T12:46:23.718272",
+    "query": "diabetic patient with foot ulcer and infection",
+    "summary": "patient ID: 14403200, age: 78, gender: F\nadmitted on 2021-10-07 for same day surgery, discharged on 2021-10-16\ndiagnoses include C258 (Pneumonitis due to materials under dental and medical treatment), N390 (Pressure ulcer of unspecified site, stage unstageable), and D732 (Complication of surgical and other invasive procedures (unspecified))",
+    "diagnoses": "* **Pneumonitis due to materials under dental and medical treatment (C258)**: This diagnosis is consistent with the patient's history of dental and medical treatment prior to hospitalization.\n\n\n* **Pressure ulcer of unspecified site, stage unstageable (N390)**: The patient's prolonged hospitalization and lack of specific site information suggest a pressure ulcer of unknown location and stage.\n\n\n* **Complication of surgical and other invasive procedures (D732)**: The presence of this diagnosis indicates that the patient experienced a complication during or after their surgical procedure, though the specifics are not elaborated in the provided summary.",
+    "feedback_score": 0.32
+  },
+  {
+    "timestamp": "2025-04-24T12:48:34.465537",
+    "query": "elderly patient with chest pain and cough",
+    "summary": "75-year-old male admitted to the ICU as an Emergency case on September 28, 2019, at 08:55. The patient was diagnosed with Respiratory Failure (Diagnosis code 9975), Sepsis (code 5990), and Pneumonia (code 1981). He was discharged on September 30, 2019, at 17:40. The diagnoses suggest a probable case of sepsis-induced respiratory failure with pneumonia. Closely monitor vital signs and administer appropriate treatment for infection control.",
+    "diagnoses": "**Most likely diagnoses:**\n\n* **Sepsis-induced respiratory failure:** The presence of respiratory failure (diagnosis code 9975) alongside sepsis (diagnosis code 5990) strongly suggests that the respiratory failure is a consequence of sepsis.\n\n\n* **Pneumonia:** The diagnosis of pneumonia (diagnosis code 1981) further supports the possibility of sepsis-induced respiratory failure, as pneumonia can be a complication of sepsis.",
+    "feedback_score": 0.34
+  },
+  {
+    "timestamp": "2025-04-24T12:48:41.159710",
+    "query": "ICU patient with sepsis and hypotension",
+    "summary": "Patient ID: 19441121, Age: 52, Gender: F\n Admission and Discharge: EU OBSERVATION on 2171-05-22 14:26 - 2171-05-23 10:43\n Primary Diagnoses: 6826, 72981, 4019 (ICD version 9.0)\n\nSummary: The female patient admitted at 14:26 on 22nd May 2071 for EU observation was discharged the next day at 10:43. She was diagnosed with conditions related to respiratory failure, poisoning by and exposure to certain chemicals (specific diagnosis not provided) and septic shock.",
+    "diagnoses": "## Most Likely Diagnoses:\n\n**1. Sepsis:**\n\n- Consistent with the patient's presentation of respiratory failure and septic shock.\n- Primary diagnosis (4019) aligns with this.\n\n**2. Chemical Poisoning:**\n\n- Supported by the observation of poisoning related to exposure to specific chemicals.\n- Specific diagnosis not provided in the summary.\n\n**3. Respiratory Failure:**\n\n- Likely secondary to the combination of sepsis and chemical poisoning.\n- Primary diagnosis (6826) is related to respiratory insufficiency.",
+    "feedback_score": 0.0
+  },
+  {
+    "timestamp": "2025-04-24T12:48:49.780873",
+    "query": "diabetic patient with foot ulcer and infection",
+    "summary": "\ud83c\udfe5 Summary for Patient ID 14403200, Age: 78, Gender: F:\n\n- Admission Type: Surgical Same Day Admission on 2175-10-07 03:16:00\n- Discharge on 2175-10-16 13:51:00\n- Diagnoses include:\n  - C258 (ICD version 10.0): Primary malignant neoplasm of colon, not precancerous lesions (malignant polyp or dysplasia)\n  - N390 (ICD version 10.0): Postoperative (postprocedural) complications of colon and rectum\n  - D732 (ICD version 10.0): Acute kidney injury\n\nClinical Relevance: The patient, a 78-year-old female, was admitted to the ICU following a colorectal surgical procedure complicated by acute kidney injury and postoperative complications of the colon.",
+    "diagnoses": "## Most likely diagnoses:\n\n**1) Postoperative sepsis:**\n\n- Complication of colorectal surgery (N390).\n- Presence of acute kidney injury (D732) suggests potential systemic inflammatory response.\n\n**2) Ischemic bowel syndrome:**\n\n- Postoperative complication of colorectal surgery.\n- May explain the ongoing kidney injury.\n\n**3) Acute tubular necrosis:**\n\n- Potential consequence of dehydration and/or sepsis.\n- Can be associated with prolonged surgery and anesthesia.",
+    "feedback_score": 0.34
+  },
+  {
+    "timestamp": "2025-04-24T12:50:37.883548",
+    "query": "elderly patient with chest pain and cough",
+    "summary": "75-year-old male presented as an emergency admission on September 28, 2019 at 08:55. The patient was diagnosed with respiratory failure [ICD-9: 9975], septic shock [ICD-9: 5990], and complication of procedure in trachea/bronchus [ICD-9: 1981]. He spent three days in the ICU before being discharged on September 30, 17:40.",
+    "diagnoses": "**1. Pneumonia**\n\n- Septic shock and respiratory failure are common manifestations of pneumonia in elderly patients.\n\n\n**2. Tracheal/bronchial complication**\n\n- The patient's history of a procedure in the trachea/bronchus suggests a potential complication from that procedure.\n\n\n**3. Ventilator-associated pneumonia**\n\n- Given the patient's three-day stay in the ICU, the possibility of ventilator-associated pneumonia should be considered.",
+    "feedback_score": 0.4
+  },
+  {
+    "timestamp": "2025-04-24T12:50:48.334558",
+    "query": "ICU patient with sepsis and hypotension",
+    "summary": "52-year-old female underwent three separate EU Observations on May 22, 2021, from 14:26 to May 23, 2021, at 10:43. The reported diagnoses are:\n\n1. ICD version 9.0 diagnosis code 6826 (undetermined infections and infestations)\n2. ICD version 9.0 diagnosis code 72981 (acute renal failure, other specified)\n3. ICD version 9.0 diagnosis code 4019 (unspecified sepsis)",
+    "diagnoses": "## Most likely diagnoses:\n\n**1. Sepsis:**\n\n- Diagnosis code 4019 is specifically for unspecified sepsis, indicating suspicion of infection as the cause of systemic inflammatory response.\n- The presence of acute renal failure (code 72981) further supports the possibility of sepsis-induced kidney injury.\n\n**2. Unidentified infectious or parasitic etiology:**\n\n- Diagnosis code 6826 refers to undetermined infections and infestations, suggesting a potential infectious or parasitic source of the sepsis that couldn't be definitively identified during the observation period.\n\n**3. Acute pyelonephritis:**\n\n- The combination of sepsis, acute renal failure, and the lack of specific infectious agent identification suggests a possible diagnosis of acute pyelonephritis.\n\n**4. Urinary tract infection (UTI):**\n\n- The absence of additional clinical details makes it difficult to rule out a UTI as a potential source of infection.\n\n**Additional considerations:**\n\n- The timing of the observed symptoms is not provided, making it difficult to assess the duration of the illness and the potential for long-term complications of sepsis or kidney injury.\n- Further investigations and consultations with specialists are necessary for definitive diagnosis and treatment recommendations.",
+    "feedback_score": 0.28
+  },
+  {
+    "timestamp": "2025-04-24T12:50:55.263726",
+    "query": "diabetic patient with foot ulcer and infection",
+    "summary": "78-year-old female underwent same-day surgical admission on October 7, 2025. She was diagnosed with:\n\n1. Postoperative cerebrovascular accident (C258), according to ICD version 10.0.\n2. Acute renal failure due to hypovolemia (N390), according to ICD version 10.0.\n3. Severe pneumonia, site not specified (D732), according to ICD version 10.0.\n\nShe was successfully discharged on October 16, 2025.",
+    "diagnoses": "## Most likely diagnoses:\n\n**1. Vascular dementia:**\n\n* Postoperative cerebrovascular accident (C258) suggests a temporary loss of blood flow to the brain during surgery, potentially indicating existing vascular dementia.\n\n\n**2. Acute tubular necrosis:**\n\n* Acute renal failure due to hypovolemia (N390) indicates sudden kidney damage, likely caused by dehydration or inadequate blood flow. This is consistent with the post-operative state.\n\n\n**3. Community-acquired pneumonia:**\n\n* Severe pneumonia, site not specified (D732) with no further details points towards community-acquired pneumonia as the most likely infection.",
+    "feedback_score": 0.4
   }
 ]
