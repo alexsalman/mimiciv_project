@@ -1,31 +1,35 @@
 # agents/retrieval_agent.py
 
-import faiss
-import numpy as np
+import re
 import pandas as pd
+import faiss
 from sentence_transformers import SentenceTransformer
 
 class RetrievalAgent:
-    def __init__(self, index_path="data/processed/patient_index.faiss", summary_path="data/processed/text_summaries.csv.gz", model_name="sentence-transformers/all-MiniLM-L6-v2"):
-        print("🔍 Initializing Retrieval Agent...")
+    def __init__(
+        self,
+        index_path:   str = "data/processed/patient_index.faiss",
+        summary_path: str = "data/processed/text_summaries.csv.gz",
+        model_name:   str = "sentence-transformers/all-MiniLM-L6-v2"
+    ):
+        # load FAISS + summaries for RAG
         self.index = faiss.read_index(index_path)
-        self.df = pd.read_csv(summary_path)
+        self.df    = pd.read_csv(summary_path)
         self.df.reset_index(drop=True, inplace=True)
         self.model = SentenceTransformer(model_name)
-        print("✅ Retrieval Agent ready.")
 
-    def retrieve(self, query: str, k: int = 5):
-        print(f"🔎 Retrieving top {k} results for query: {query}")
-        query_vector = self.model.encode([query], convert_to_numpy=True)
-        distances, indices = self.index.search(query_vector, k)
+    def retrieve(self, query: str, k: int = 3):
+        # 1) detect “patient id: N” queries
+        m = re.search(r'patient\s*id[:\s]+(\d+)', query.lower())
+        if m:
+            pid = int(m.group(1))
+            rows = self.df[self.df["subject_id"] == pid]
+            # convert to “documents” format to match RAG API
+            docs = rows["text_summary"].head(k).tolist()
+            return {"documents": [docs], "ids": rows.index[:k].tolist()}
 
-        results = []
-        for idx in indices[0]:
-            if idx < len(self.df):
-                row = self.df.iloc[idx]
-                results.append({
-                    "subject_id": row.get("subject_id"),
-                    "hadm_id": row.get("hadm_id"),
-                    "summary": row.get("text_summary", "")[:500]
-                })
-        return results
+        # 2) fallback to vector‐based retrieval
+        qv = self.model.encode([query])
+        D, I = self.index.search(qv, k)
+        docs = [ self.df.iloc[i]["text_summary"] for i in I[0] ]
+        return {"documents": [docs], "ids": I[0].tolist()}

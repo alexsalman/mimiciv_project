@@ -3,18 +3,18 @@ import argparse
 from agents.master_agent import MasterAgent
 
 def main():
-    parser = argparse.ArgumentParser(description="Offline Clinical Q&A")
-    parser.add_argument("query", help="Patient-level clinical query")
-    parser.add_argument("-k", type=int, default=3, help="Number of similar cases to retrieve")
-    args = parser.parse_args()
+    p = argparse.ArgumentParser()
+    p.add_argument("query", help="Natural-language query or ‘Patient ID: 12345’")
+    p.add_argument("-k","--k", type=int, default=3, help="How many records to fetch")
+    args = p.parse_args()
 
     agent = MasterAgent()
-    result = agent.handle_query(args.query, top_k=args.k)
+    resp  = agent.handle_query(args.query, top_k=args.k)
 
     print("\n=== Final Response ===")
-    print("Summary:\n", result["summary"])
-    print("\nDiagnoses:\n", result["diagnoses"])
-    print("\nFeedback Score:", result["feedback_score"])
+    print("Summary:\n", resp["summary"], "\n")
+    print("Diagnoses:\n", resp["diagnoses"], "\n")
+    print("Feedback Score:", resp["feedback_score"])
 
 if __name__ == "__main__":
     main()
