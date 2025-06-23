@@ -1,0 +1,9 @@
+{
+  "agents/test_diagnosis_agent.py": true,
+  "agents/test_master_agent.py": true,
+  "agents/test_retrieval_agent.py": true,
+  "agents/test_summarization_agent.py": true,
+  "tests/test_scoring.py": true,
+  "src/mimiciv_project/tests/test_master_agent.py": true,
+  "src/mimiciv_project/tests/test_summarization_agent.py": true
+}

@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# macOS
+.DS_Store
+
+# Ollama
+.ollama/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Data artifacts (not to check-in large MIMIC files)
+data/

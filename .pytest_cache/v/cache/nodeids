@@ -1,0 +1,12 @@
+[
+  "src/mimiciv_project/tests/test_scoring_utils.py::test_compute_feedback_score[- **Acute myocardial infarction (AMI)**: ECG changes-1.0]",
+  "src/mimiciv_project/tests/test_scoring_utils.py::test_compute_feedback_score[- **COPD exacerbation**: Worsening dyspnea-0.6]",
+  "src/mimiciv_project/tests/test_scoring_utils.py::test_compute_feedback_score[Just mentions hypertension-0.1]",
+  "src/mimiciv_project/tests/test_scoring_utils.py::test_compute_feedback_score[No valid diagnosis here.-0.1]",
+  "src/mimiciv_project/tests/test_scoring_utils.py::test_compute_feedback_score[Possible cad and ami present-1.0]",
+  "tests/test_scoring_utils.py::test_compute_feedback_score[- **Acute myocardial infarction (AMI)**: ECG changes-1.0]",
+  "tests/test_scoring_utils.py::test_compute_feedback_score[- **COPD exacerbation**: Worsening dyspnea-0.6]",
+  "tests/test_scoring_utils.py::test_compute_feedback_score[Just mentions hypertension-0.1]",
+  "tests/test_scoring_utils.py::test_compute_feedback_score[No valid diagnosis here.-0.1]",
+  "tests/test_scoring_utils.py::test_compute_feedback_score[Possible cad and ami present-1.0]"
+]
