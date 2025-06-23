@@ -208,5 +208,40 @@
     "summary": "\ud83c\udf31 **Patient Summary:**\n\n**ID:** 14403200, **Age:** 78, **Gender:** Female\n\n**Admission Details:**\n- Surgical Same Day Admission on October 7, 20XX at 3:16 AM\n- Discharged on October 16, 20XX at 1:51 PM\n\n**Diagnoses:**\n- Primary diagnosis: C258 (ICD version 10.0) - Intracranial hemorrhage due to traumatic brain injury\n- Secondary diagnosis: N390 (ICD version 10.0) - Other and unspecified infections and infestations of the central nervous system\n- Tertiary diagnosis: D732 (ICD version 10.0) - Complication following osteoarthropathy of other joints and related lodges\n\n**Implications:** This patient is a 78-year-old female who underwent a surgical procedure resulting in complications related to traumatic brain injury, central nervous system infection, and osteoarthropathy. The trauma led to an intracranial hemorrhage that necessitated ICU admission and care. Furthermore, there was a concurrent central nervous system infection and a complication from existing osteoarthropathy.",
     "diagnoses": "## Most likely diagnoses:\n\n**1. Traumatic Brain Injury (C258)**\n\n* Consistent with the primary diagnosis of intracranial hemorrhage due to traumatic brain injury.\n* Patient underwent a surgical procedure, suggesting potential traumatic event.\n\n**2. Central Nervous System Infection (N390)**\n\n* Secondary diagnosis indicating the presence of an infection within the central nervous system.\n* Symptoms not explicitly mentioned, but likely present given the infection diagnosis.\n\n**3. Post-Arthritic Complications (D732)**\n\n* Tertiary diagnosis relating to an existing condition of osteoarthropathy.\n* May be related to the intracranial hemorrhage or be a pre-existing complication.",
     "feedback_score": 1.0
+  },
+  {
+    "timestamp": "2025-06-23T11:55:55.135823",
+    "query": "elderly patient in ICU with respiratory issues and chest infiltrates",
+    "summary": "DUMMY_SUMMARY",
+    "diagnoses": "DUMMY_DIAGNOSES",
+    "feedback_score": 0.1
+  },
+  {
+    "timestamp": "2025-06-23T11:56:48.596811",
+    "query": "elderly patient in ICU with respiratory issues and chest infiltrates",
+    "summary": "DUMMY_SUMMARY",
+    "diagnoses": "DUMMY_DIAGNOSES",
+    "feedback_score": 0.1
+  },
+  {
+    "timestamp": "2025-06-23T12:02:27.155383",
+    "query": "elderly patient in ICU with respiratory issues and chest infiltrates",
+    "summary": "DUMMY_SUMMARY",
+    "diagnoses": "DUMMY_DIAGNOSES",
+    "feedback_score": 0.1
+  },
+  {
+    "timestamp": "2025-06-23T12:46:22.774457",
+    "query": "elderly patient in ICU with respiratory issues and chest infiltrates",
+    "summary": "59-year-old female was directly observed and admitted in the ICU on 2178-07-27 at 12:00. The patient had three primary diagnoses:\n\n1. ICD Version 9.0 code (55321): Respiratory failure due to pneumonia.\n2. ICD Version 9.0 code (27800): Hypokalemia (low potassium levels).\n3. ICD Version 9.0 code (4019): Shock, unspecified. The patient was discharged on 2178-07-29 at 10:55 after a 3-day stay in the ICU.",
+    "diagnoses": "DUMMY_DIAGNOSES",
+    "feedback_score": 0.1
+  },
+  {
+    "timestamp": "2025-06-23T13:34:21.215382",
+    "query": "elderly patient in ICU with respiratory issues and chest infiltrates",
+    "summary": "patient ID: 18926086, a 59-year old female was admitted for direct observation on July 27, 12:00, and discharged on July 29, 10:55. The primary diagnoses were:\n\n* Respiratory failure (ICD-9 code 55321)\n* Septic shock (ICD-9 code 27800)\n* Pneumonia (ICD-9 code 4019)\n\nThis patient required intensive care unit (ICU) observation, and was treated for respiratory failure, septic shock, and pneumonia during her stay.",
+    "diagnoses": "DUMMY_DIAGNOSES",
+    "feedback_score": 0.1
   }
 ]

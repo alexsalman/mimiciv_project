@@ -1,7 +1,11 @@
 # tests/test_scoring_utils.py
 
 import pytest
-from utils.scoring_utils import compute_feedback_score
+from mimiciv_project.agents.retrieval_agent     import RetrievalAgent
+from mimiciv_project.agents.summarization_agent import SummarizationAgent
+from mimiciv_project.agents.diagnosis_agent     import DiagnosisAgent
+from mimiciv_project.agents.master_agent        import MasterAgent
+from mimiciv_project.utils.scoring_utils        import compute_feedback_score
 
 @pytest.mark.parametrize("diag,expected", [
     ("- **Acute myocardial infarction (AMI)**: ECG changes", 1.0),

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mimiciv_project"
+version = "0.1.0"
+description = "Offline clinical Q&A with RAG and lightweight LLM agents"
+authors = [{ name="Ali Salman", email="a.salman@student.unisi.it" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "faiss-cpu",
+  "sentence-transformers",
+  "chromadb",
+  "ollama",
+  "torch",
+  "langchain",
+  # … and whatever’s in your requirements.txt
+]
+
+[project.scripts]
+mimiciv-cli = "mimiciv_project.cli:main"

@@ -1,6 +1,10 @@
 # tests/test_retrieval_agent.py
 
-from agents.retrieval_agent import RetrievalAgent
+from mimiciv_project.agents.retrieval_agent     import RetrievalAgent
+from mimiciv_project.agents.summarization_agent import SummarizationAgent
+from mimiciv_project.agents.diagnosis_agent     import DiagnosisAgent
+from mimiciv_project.agents.master_agent        import MasterAgent
+from mimiciv_project.utils.scoring_utils        import compute_feedback_score
 
 agent = RetrievalAgent()
 results = agent.retrieve("patient with high blood pressure and chest pain", k=5)

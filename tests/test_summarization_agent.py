@@ -1,6 +1,10 @@
 # tests/test_summarization_agent.py
 
-from agents.summarization_agent import SummarizationAgent
+from mimiciv_project.agents.retrieval_agent     import RetrievalAgent
+from mimiciv_project.agents.summarization_agent import SummarizationAgent
+from mimiciv_project.agents.diagnosis_agent     import DiagnosisAgent
+from mimiciv_project.agents.master_agent        import MasterAgent
+from mimiciv_project.utils.scoring_utils        import compute_feedback_score
 
 print("🧠 Initializing Summarization Agent...")
 agent = SummarizationAgent()

@@ -1,18 +1,17 @@
-# tests/test_master_agent.py
+# scripts/test_master_agent.py
 
-from agents.master_agent import MasterAgent
+from mimiciv_project.agents.retrieval_agent     import RetrievalAgent
+from mimiciv_project.agents.summarization_agent import SummarizationAgent
+from mimiciv_project.agents.diagnosis_agent     import DiagnosisAgent
+from mimiciv_project.agents.master_agent        import MasterAgent
+from mimiciv_project.utils.scoring_utils        import compute_feedback_score
 
-print("🧠 Initializing Master Agent...")
+query = "elderly patient in ICU with respiratory issues and chest infiltrates"
+
 agent = MasterAgent()
-print("✅ Master Agent ready.")
-
-# Sample user query
-query = "elderly patient with shortness of breath and chest X-ray showing infiltrates"
-print(f"\n🤖 User Query: {query}")
-
 response = agent.handle_query(query)
 
-print("\n✅ Final Output:")
-print("📝 Summary:", response["summary"])
-print("\n🩺 Diagnoses:", response["diagnoses"])
-print("\n📊 Feedback Score:", response["feedback_score"])
+print("\n✅ Final Response:")
+print("Summary:", response["summary"])
+print("Diagnoses:", response["diagnoses"])
+print("Feedback Score:", response["feedback_score"])
