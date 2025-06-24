@@ -1,0 +1,98 @@
+[
+  {
+    "query": "patient id: 12374058",
+    "k": 1
+  },
+  {
+    "query": "patient id: 14256548",
+    "k": 1
+  },
+  {
+    "query": "patient id: 16874298",
+    "k": 1
+  },
+  {
+    "query": "Does patient id: 12374058 exhibit signs of sepsis?",
+    "k": 3
+  },
+  {
+    "query": "Is there evidence of acute respiratory distress syndrome for patient id: 12374058?",
+    "k": 3
+  },
+  {
+    "query": "Check for any mention of acute myocardial infarction in patient id: 12374058",
+    "k": 3
+  },
+  {
+    "query": "Provide a concise summary of patient id: 12374058\u2019s ICU stay",
+    "k": 3
+  },
+  {
+    "query": "Summarize key events and interventions during the first 48 hours for patient id: 12374058",
+    "k": 3
+  },
+  {
+    "query": "Give me a narrative focusing on comorbidities and treatments for patient id: 12374058",
+    "k": 3
+  },
+  {
+    "query": "Extract heart rate, blood pressure, respiratory rate, temperature, and SpO2 on admission for patient id: 12374058",
+    "k": 3
+  },
+  {
+    "query": "List all SpO2 readings with timestamps from patient id: 12374058 record",
+    "k": 3
+  },
+  {
+    "query": "Report patient id: 12374058\u2019s mean arterial pressure trend on day one",
+    "k": 3
+  },
+  {
+    "query": "Which lab values were most abnormal on admission for patient id: 12374058?",
+    "k": 3
+  },
+  {
+    "query": "List creatinine, BUN, and electrolytes with values and dates for patient id: 12374058",
+    "k": 3
+  },
+  {
+    "query": "Extract the first arterial blood gas result for patient id: 12374058",
+    "k": 3
+  },
+  {
+    "query": "What medications were started within 6 hours of ICU admission for patient id: 12374058?",
+    "k": 3
+  },
+  {
+    "query": "List all vasopressors and ventilator settings used for patient id: 12374058",
+    "k": 3
+  },
+  {
+    "query": "Describe the timing and dosing of antibiotic administration for patient id: 12374058",
+    "k": 3
+  },
+  {
+    "query": "List the top 3 differential diagnoses with rationale for patient id: 12374058",
+    "k": 3
+  },
+  {
+    "query": "What evidence in the note supports a diagnosis of sepsis for patient id: 12374058?",
+    "k": 3
+  },
+  {
+    "query": "Identify signs of acute kidney injury and explain your reasoning for patient id: 12374058",
+    "k": 3
+  },
+  {
+    "query": "Create a timeline of key events (intubation, dialysis, vasopressors) for patient id: 12374058",
+    "k": 3
+  },
+  {
+    "query": "How did lactate levels change over time for patient id: 12374058?",
+    "k": 3
+  },
+  {
+    "query": "Summarize daily SOFA scores for the first three days for patient id: 12374058",
+    "k": 3
+  }
+]

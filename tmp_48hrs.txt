@@ -1,0 +1,110 @@
+Loading queries from results/cli_eval_queries.json
+DEBUG: summary DataFrame columns: ['subject_id', 'hadm_id', 'text_summary']
+
+>> Query: 'patient id: 12374058'  (k=1)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+
+>> Query: 'patient id: 14256548'  (k=1)
+    {'subject_id': 14256548, 'hadm_id': 22411780, 'summary': 'Patient ID: 14256548 | Age: 61 | Gender: M | Admission Type: URGENT | Admission Time: 2183-07-23 21:03:00 | Discharge Time: 2183-08-02 17:15:00 | Diagnoses: F339 (ICD v10.0)'}
+
+>> Query: 'patient id: 16874298'  (k=1)
+    {'subject_id': 16874298, 'hadm_id': 23500612, 'summary': 'Patient ID: 16874298 | Age: 36 | Gender: F | Admission Type: URGENT | Admission Time: 2110-06-30 14:29:00 | Discharge Time: 2110-07-03 17:51:00 | Diagnoses: 64241 (ICD v9.0)'}
+
+>> Query: 'Does patient id: 12374058 exhibit signs of sepsis?'  (k=3)
+    {'subject_id': None, 'hadm_id': None, 'summary': 'No mentions of sepsis found in the top 3 records.'}
+
+>> Query: 'Is there evidence of acute respiratory distress syndrome for patient id: 12374058?'  (k=3)
+    {'subject_id': None, 'hadm_id': None, 'summary': 'No mentions of acute respiratory distress syndrome found in the top 3 records.'}
+
+>> Query: 'Check for any mention of acute myocardial infarction in patient id: 12374058'  (k=3)
+    {'subject_id': None, 'hadm_id': None, 'summary': 'No mentions of acute myocardial infarction found in the top 3 records.'}
+
+>> Query: 'Provide a concise summary of patient id: 12374058’s ICU stay'  (k=3)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: V0251 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 49390 (ICD v9.0)'}
+
+>> Query: 'Summarize key events and interventions during the first 48 hours for patient id: 12374058'  (k=3)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: V0251 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 49390 (ICD v9.0)'}
+
+>> Query: 'Give me a narrative focusing on comorbidities and treatments for patient id: 12374058'  (k=3)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: V0251 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 49390 (ICD v9.0)'}
+
+>> Query: 'Extract heart rate, blood pressure, respiratory rate, temperature, and SpO2 on admission for patient id: 12374058'  (k=3)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: V0251 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 49390 (ICD v9.0)'}
+
+>> Query: 'List all SpO2 readings with timestamps from patient id: 12374058 record'  (k=3)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: V0251 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 49390 (ICD v9.0)'}
+
+>> Query: 'Report patient id: 12374058’s mean arterial pressure trend on day one'  (k=3)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: V0251 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 49390 (ICD v9.0)'}
+
+>> Query: 'Which lab values were most abnormal on admission for patient id: 12374058?'  (k=3)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: V0251 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 49390 (ICD v9.0)'}
+
+>> Query: 'List creatinine, BUN, and electrolytes with values and dates for patient id: 12374058'  (k=3)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: V0251 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 49390 (ICD v9.0)'}
+
+>> Query: 'Extract the first arterial blood gas result for patient id: 12374058'  (k=3)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: V0251 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 49390 (ICD v9.0)'}
+
+>> Query: 'What medications were started within 6 hours of ICU admission for patient id: 12374058?'  (k=3)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: V0251 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 49390 (ICD v9.0)'}
+
+>> Query: 'List all vasopressors and ventilator settings used for patient id: 12374058'  (k=3)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: V0251 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 49390 (ICD v9.0)'}
+
+>> Query: 'Describe the timing and dosing of antibiotic administration for patient id: 12374058'  (k=3)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: V0251 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 49390 (ICD v9.0)'}
+
+>> Query: 'List the top 3 differential diagnoses with rationale for patient id: 12374058'  (k=3)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: V0251 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 49390 (ICD v9.0)'}
+
+>> Query: 'What evidence in the note supports a diagnosis of sepsis for patient id: 12374058?'  (k=3)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: V0251 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 49390 (ICD v9.0)'}
+
+>> Query: 'Identify signs of acute kidney injury and explain your reasoning for patient id: 12374058'  (k=3)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: V0251 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 49390 (ICD v9.0)'}
+
+>> Query: 'Create a timeline of key events (intubation, dialysis, vasopressors) for patient id: 12374058'  (k=3)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: V0251 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 49390 (ICD v9.0)'}
+
+>> Query: 'How did lactate levels change over time for patient id: 12374058?'  (k=3)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: V0251 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 49390 (ICD v9.0)'}
+
+>> Query: 'Summarize daily SOFA scores for the first three days for patient id: 12374058'  (k=3)
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: V0251 (ICD v9.0)'}
+    {'subject_id': 12374058, 'hadm_id': 24776987, 'summary': 'Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 49390 (ICD v9.0)'}

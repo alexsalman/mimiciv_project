@@ -1,12 +1,11 @@
 # src/mimiciv_project/agents/diagnosis_agent.py
 
 import requests
-from requests.exceptions import RequestException
 
 class DiagnosisAgent:
     def __init__(
         self,
-        model: str = "gemma",
+        model: str = "gemma:latest",
         base_url: str = "http://127.0.0.1:11434/v1"
     ):
         self.model    = model
@@ -14,19 +13,15 @@ class DiagnosisAgent:
 
     def diagnose(self, summary: str) -> str:
         prompt = (
-            "🩺 Given this patient summary, list the most likely diagnoses "
-            "with brief explanations for each:\n\n"
+            "🩺 Based on the patient summary below, list the top 3 most likely diagnoses as markdown bullets. "
+            "For each, include the condition name and ICD code, followed by a one-sentence rationale:\n\n"
             f"{summary}"
         )
         payload = {
             "model": self.model,
             "messages": [{"role": "user", "content": prompt}]
         }
-        try:
-            resp = requests.post(self.endpoint, json=payload, timeout=2)
-            resp.raise_for_status()
-            data = resp.json()
-            return data["choices"][0]["message"]["content"].strip()
-        except RequestException:
-            # fallback for offline/tests
-            return "DUMMY_DIAGNOSES"
+        resp = requests.post(self.endpoint, json=payload, timeout=60)
+        resp.raise_for_status()                              # <-- will raise if Ollama isn’t reachable
+        data = resp.json()
+        return data["choices"][0]["message"]["content"].strip()

@@ -7,8 +7,6 @@ df = pd.read_csv(merged_path)
 # Drop rows with missing hadm_id or subject_id just in case
 df = df.dropna(subset=["subject_id", "hadm_id"])
 
-# Optional: map ICD-9/10 codes to descriptions later if needed
-
 def build_summary(row):
     parts = [
         f"Patient ID: {row['subject_id']}",
@@ -17,9 +15,23 @@ def build_summary(row):
         f"Admission Type: {row['admission_type']}",
         f"Admission Time: {row['admittime']}",
         f"Discharge Time: {row['dischtime']}",
-        f"Diagnoses: {row['icd_code']} (ICD version {row['icd_version']})"
     ]
-    return " | ".join([str(p) for p in parts if pd.notnull(p)])
+
+    # Insert vital signs if available
+    vitals = []
+    if pd.notnull(row.get("heart_rate")):
+        vitals.append(f"HR: {int(row['heart_rate'])} bpm")
+    if pd.notnull(row.get("sys_bp")) and pd.notnull(row.get("dia_bp")):
+        vitals.append(f"BP: {int(row['sys_bp'])}/{int(row['dia_bp'])} mmHg")
+    if pd.notnull(row.get("spo2")):
+        vitals.append(f"SpO₂: {int(row['spo2'])}%")
+    if vitals:
+        parts.append("Vitals on admission: " + ", ".join(vitals))
+
+    # Diagnoses
+    parts.append(f"Diagnoses: {row['icd_code']} (ICD v{row['icd_version']})")
+
+    return " | ".join(parts)
 
 # Create the text summary
 df["text_summary"] = df.apply(build_summary, axis=1)
