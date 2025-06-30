@@ -1,0 +1,335 @@
+elderly patient in ICU with respiratory issues and chest infiltrates
+elderly patient with shortness of breath and chest X-ray showing infiltrates
+elderly patient with shortness of breath and chest X-ray showing infiltrates
+elderly patient in ICU with respiratory issues and chest infiltrates
+elderly patient in ICU with respiratory issues and chest infiltrates
+elderly patient with shortness of breath and chest X-ray showing infiltrates
+elderly patient with chest pain and cough
+elderly patient with chest pain and cough
+ICU patient with sepsis and hypotension
+diabetic patient with foot ulcer and infection
+elderly patient with chest pain and cough
+ICU patient with sepsis and hypotension
+diabetic patient with foot ulcer and infection
+elderly patient with chest pain and cough
+ICU patient with sepsis and hypotension
+diabetic patient with foot ulcer and infection
+elderly patient with chest pain and cough
+ICU patient with sepsis and hypotension
+diabetic patient with foot ulcer and infection
+elderly patient with chest pain and cough
+ICU patient with sepsis and hypotension
+diabetic patient with foot ulcer and infection
+common lab abnormalities in ICU patients with sepsis?
+Patient ID: 10000032
+elderly patient with chest pain and cough
+ICU patient with sepsis and hypotension
+diabetic patient with foot ulcer and infection
+elderly patient with chest pain and cough
+ICU patient with sepsis and hypotension
+diabetic patient with foot ulcer and infection
+elderly patient in ICU with respiratory issues and chest infiltrates
+elderly patient in ICU with respiratory issues and chest infiltrates
+elderly patient in ICU with respiratory issues and chest infiltrates
+elderly patient in ICU with respiratory issues and chest infiltrates
+elderly patient in ICU with respiratory issues and chest infiltrates
+elderly patient with chest pain and cough
+elderly patient in ICU with respiratory issues and chest infiltrates
+elderly patient with chest pain and cough
+Patient ID: 10000032
+Patient ID: 10000032
+elderly patient in ICU with respiratory issues and chest infiltrates
+elderly patient with chest pain
+elderly patient in ICU with respiratory issues and chest infiltrates
+elderly patient with chest pain and cough
+What was the patient’s age, gender, and admission type for Patient ID: 19643838
+What were the patient’s primary diagnosis ICD-9 codes and their descriptive labels for Patient ID: 19643838
+What were the admission and discharge timestamps, and what was the length of stay for Patient ID: 19643838?
+Patient ID: 19643838
+elderly patient in ICU with respiratory issues and chest infiltrates
+elderly patient in ICU with respiratory issues and chest infiltrates
+elderly patient in ICU with respiratory issues and chest infiltrates
+elderly patient in ICU with respiratory issues and chest infiltrates
+elderly patient in ICU with respiratory issues and chest infiltrates
+Patient ID: 19643838
+Patient ID: 19643838
+Patient ID: 19643838
+Patient ID: 19643838
+Patient ID: 19643838
+Patient ID: 19643838
+Patient ID: 19643838
+Patient ID: 19643838
+Patient ID: 19643838
+What were the patient’s heart rate, blood pressure, and SpO₂ on admission for Patient ID: 19643838?
+What were the patient’s heart rate, blood pressure, and SpO₂ on admission for Patient ID: 19643838?
+What were the patient’s heart rate, blood pressure, and SpO₂ on admission for Patient ID: 19643838?
+What were the patient’s heart rate, blood pressure, and SpO₂ on admission for Patient ID: 19643838?
+What were the patient’s heart rate, blood pressure, and SpO₂ on admission for Patient ID: 19643838?
+What were the patient’s heart rate, blood pressure, and SpO₂ on admission for Patient ID: 19643838?
+What were the patient’s heart rate, blood pressure, and SpO₂ on admission for Patient ID: 19643838?
+patient id: 100061 any
+Give me a concise summary of this patient
+patient id: 100061
+Fetch record for patient ID 234567
+Show me the history for patient id 345678
+Does this patient exhibit signs of sepsis?
+Is there evidence of acute respiratory distress syndrome?
+Check for any mention of acute myocardial infarction
+Provide a concise summary of this patient’s ICU stay
+Summarize key events and interventions during the first 48 hours
+Give me a narrative focusing on comorbidities and treatments
+Extract heart rate, blood pressure, respiratory rate, temperature, and SpO2 on admission
+List all SpO2 readings with timestamps from this record
+Report the patient’s mean arterial pressure trend on day one
+Which lab values were most abnormal on admission?
+List creatinine, BUN, and electrolytes with values and dates
+Extract the first arterial blood gas result from this note
+What medications were started within 6 hours of ICU admission?
+List all vasopressors and ventilator settings used
+Describe the timing and dosing of antibiotic administration
+List the top 3 differential diagnoses with rationale
+What evidence in this note supports a diagnosis of sepsis?
+Identify signs of acute kidney injury and explain your reasoning
+Create a timeline of key events (intubation, dialysis, vasopressors)
+How did lactate levels change over time?
+Summarize daily SOFA scores for the first three days
+patient id: 100061
+Fetch record for patient ID 234567
+Show me the history for patient id 345678
+Does this patient exhibit signs of sepsis?
+Is there evidence of acute respiratory distress syndrome?
+Check for any mention of acute myocardial infarction
+Provide a concise summary of this patient’s ICU stay
+Summarize key events and interventions during the first 48 hours
+Give me a narrative focusing on comorbidities and treatments
+Extract heart rate, blood pressure, respiratory rate, temperature, and SpO2 on admission
+List all SpO2 readings with timestamps from this record
+Report the patient’s mean arterial pressure trend on day one
+Which lab values were most abnormal on admission?
+List creatinine, BUN, and electrolytes with values and dates
+Extract the first arterial blood gas result from this note
+What medications were started within 6 hours of ICU admission?
+List all vasopressors and ventilator settings used
+Describe the timing and dosing of antibiotic administration
+List the top 3 differential diagnoses with rationale
+What evidence in this note supports a diagnosis of sepsis?
+Identify signs of acute kidney injury and explain your reasoning
+Create a timeline of key events (intubation, dialysis, vasopressors)
+How did lactate levels change over time?
+Summarize daily SOFA scores for the first three days
+patient id: 12374058
+patient id: 14256548
+patient id: 16874298
+Does patient id: 12374058 exhibit signs of sepsis?
+Is there evidence of acute respiratory distress syndrome for patient id: 12374058?
+Check for any mention of acute myocardial infarction in patient id: 12374058
+Provide a concise summary of patient id: 12374058’s ICU stay
+Summarize key events and interventions during the first 48 hours for patient id: 12374058
+Give me a narrative focusing on comorbidities and treatments for patient id: 12374058
+Extract heart rate, blood pressure, respiratory rate, temperature, and SpO2 on admission for patient id: 12374058
+List all SpO2 readings with timestamps from patient id: 12374058 record
+Report patient id: 12374058’s mean arterial pressure trend on day one
+Which lab values were most abnormal on admission for patient id: 12374058?
+List creatinine, BUN, and electrolytes with values and dates for patient id: 12374058
+Extract the first arterial blood gas result for patient id: 12374058
+What medications were started within 6 hours of ICU admission for patient id: 12374058?
+List all vasopressors and ventilator settings used for patient id: 12374058
+Describe the timing and dosing of antibiotic administration for patient id: 12374058
+List the top 3 differential diagnoses with rationale for patient id: 12374058
+What evidence in the note supports a diagnosis of sepsis for patient id: 12374058?
+Identify signs of acute kidney injury and explain your reasoning for patient id: 12374058
+Create a timeline of key events (intubation, dialysis, vasopressors) for patient id: 12374058
+How did lactate levels change over time for patient id: 12374058?
+Summarize daily SOFA scores for the first three days for patient id: 12374058
+patient id: 12374058
+patient id: 14256548
+patient id: 16874298
+Does patient id: 12374058 exhibit signs of sepsis?
+Is there evidence of acute respiratory distress syndrome for patient id: 12374058?
+Check for any mention of acute myocardial infarction in patient id: 12374058
+Provide a concise summary of patient id: 12374058’s ICU stay
+Summarize key events and interventions during the first 48 hours for patient id: 12374058
+Give me a narrative focusing on comorbidities and treatments for patient id: 12374058
+Extract heart rate, blood pressure, respiratory rate, temperature, and SpO2 on admission for patient id: 12374058
+List all SpO2 readings with timestamps from patient id: 12374058 record
+Report patient id: 12374058’s mean arterial pressure trend on day one
+Which lab values were most abnormal on admission for patient id: 12374058?
+List creatinine, BUN, and electrolytes with values and dates for patient id: 12374058
+Extract the first arterial blood gas result for patient id: 12374058
+What medications were started within 6 hours of ICU admission for patient id: 12374058?
+List all vasopressors and ventilator settings used for patient id: 12374058
+Describe the timing and dosing of antibiotic administration for patient id: 12374058
+List the top 3 differential diagnoses with rationale for patient id: 12374058
+What evidence in the note supports a diagnosis of sepsis for patient id: 12374058?
+Identify signs of acute kidney injury and explain your reasoning for patient id: 12374058
+Create a timeline of key events (intubation, dialysis, vasopressors) for patient id: 12374058
+How did lactate levels change over time for patient id: 12374058?
+Summarize daily SOFA scores for the first three days for patient id: 12374058
+patient id: 12374058
+patient id: 14256548
+patient id: 16874298
+Does patient id: 12374058 exhibit signs of sepsis?
+Is there evidence of acute respiratory distress syndrome for patient id: 12374058?
+Check for any mention of acute myocardial infarction in patient id: 12374058
+Provide a concise summary of patient id: 12374058’s ICU stay
+Summarize key events and interventions during the first 48 hours for patient id: 12374058
+Give me a narrative focusing on comorbidities and treatments for patient id: 12374058
+Extract heart rate, blood pressure, respiratory rate, temperature, and SpO2 on admission for patient id: 12374058
+List all SpO2 readings with timestamps from patient id: 12374058 record
+Report patient id: 12374058’s mean arterial pressure trend on day one
+Which lab values were most abnormal on admission for patient id: 12374058?
+List creatinine, BUN, and electrolytes with values and dates for patient id: 12374058
+Extract the first arterial blood gas result for patient id: 12374058
+What medications were started within 6 hours of ICU admission for patient id: 12374058?
+List all vasopressors and ventilator settings used for patient id: 12374058
+Describe the timing and dosing of antibiotic administration for patient id: 12374058
+List the top 3 differential diagnoses with rationale for patient id: 12374058
+What evidence in the note supports a diagnosis of sepsis for patient id: 12374058?
+Identify signs of acute kidney injury and explain your reasoning for patient id: 12374058
+Create a timeline of key events (intubation, dialysis, vasopressors) for patient id: 12374058
+How did lactate levels change over time for patient id: 12374058?
+Summarize daily SOFA scores for the first three days for patient id: 12374058
+patient id: 12374058
+patient id: 14256548
+patient id: 16874298
+Does patient id: 12374058 exhibit signs of sepsis?
+Is there evidence of acute respiratory distress syndrome for patient id: 12374058?
+Check for any mention of acute myocardial infarction in patient id: 12374058
+Provide a concise summary of patient id: 12374058’s ICU stay
+Summarize key events and interventions during the first 48 hours for patient id: 12374058
+Give me a narrative focusing on comorbidities and treatments for patient id: 12374058
+Extract heart rate, blood pressure, respiratory rate, temperature, and SpO2 on admission for patient id: 12374058
+List all SpO2 readings with timestamps from patient id: 12374058 record
+Report patient id: 12374058’s mean arterial pressure trend on day one
+Which lab values were most abnormal on admission for patient id: 12374058?
+List creatinine, BUN, and electrolytes with values and dates for patient id: 12374058
+Extract the first arterial blood gas result for patient id: 12374058
+What medications were started within 6 hours of ICU admission for patient id: 12374058?
+List all vasopressors and ventilator settings used for patient id: 12374058
+Describe the timing and dosing of antibiotic administration for patient id: 12374058
+List the top 3 differential diagnoses with rationale for patient id: 12374058
+What evidence in the note supports a diagnosis of sepsis for patient id: 12374058?
+Identify signs of acute kidney injury and explain your reasoning for patient id: 12374058
+Create a timeline of key events (intubation, dialysis, vasopressors) for patient id: 12374058
+How did lactate levels change over time for patient id: 12374058?
+Summarize daily SOFA scores for the first three days for patient id: 12374058
+patient id: 12374058
+patient id: 14256548
+patient id: 16874298
+Does patient id: 12374058 exhibit signs of sepsis?
+Is there evidence of acute respiratory distress syndrome for patient id: 12374058?
+Check for any mention of acute myocardial infarction in patient id: 12374058
+Provide a concise summary of patient id: 12374058’s ICU stay
+Summarize key events and interventions during the first 48 hours for patient id: 12374058
+Give me a narrative focusing on comorbidities and treatments for patient id: 12374058
+Extract heart rate, blood pressure, respiratory rate, temperature, and SpO2 on admission for patient id: 12374058
+List all SpO2 readings with timestamps from patient id: 12374058 record
+Report patient id: 12374058’s mean arterial pressure trend on day one
+Which lab values were most abnormal on admission for patient id: 12374058?
+List creatinine, BUN, and electrolytes with values and dates for patient id: 12374058
+Extract the first arterial blood gas result for patient id: 12374058
+What medications were started within 6 hours of ICU admission for patient id: 12374058?
+List all vasopressors and ventilator settings used for patient id: 12374058
+Describe the timing and dosing of antibiotic administration for patient id: 12374058
+List the top 3 differential diagnoses with rationale for patient id: 12374058
+What evidence in the note supports a diagnosis of sepsis for patient id: 12374058?
+Identify signs of acute kidney injury and explain your reasoning for patient id: 12374058
+Create a timeline of key events (intubation, dialysis, vasopressors) for patient id: 12374058
+How did lactate levels change over time for patient id: 12374058?
+Summarize daily SOFA scores for the first three days for patient id: 12374058
+patient id: 12374058
+patient id: 14256548
+patient id: 16874298
+Does patient id: 12374058 exhibit signs of sepsis?
+Is there evidence of acute respiratory distress syndrome for patient id: 12374058?
+Check for any mention of acute myocardial infarction in patient id: 12374058
+Provide a concise summary of patient id: 12374058’s ICU stay
+Summarize key events and interventions during the first 48 hours for patient id: 12374058
+Give me a narrative focusing on comorbidities and treatments for patient id: 12374058
+Extract heart rate, blood pressure, respiratory rate, temperature, and SpO2 on admission for patient id: 12374058
+List all SpO2 readings with timestamps from patient id: 12374058 record
+Report patient id: 12374058’s mean arterial pressure trend on day one
+Which lab values were most abnormal on admission for patient id: 12374058?
+List creatinine, BUN, and electrolytes with values and dates for patient id: 12374058
+Extract the first arterial blood gas result for patient id: 12374058
+What medications were started within 6 hours of ICU admission for patient id: 12374058?
+List all vasopressors and ventilator settings used for patient id: 12374058
+Describe the timing and dosing of antibiotic administration for patient id: 12374058
+List the top 3 differential diagnoses with rationale for patient id: 12374058
+What evidence in the note supports a diagnosis of sepsis for patient id: 12374058?
+Identify signs of acute kidney injury and explain your reasoning for patient id: 12374058
+Create a timeline of key events (intubation, dialysis, vasopressors) for patient id: 12374058
+How did lactate levels change over time for patient id: 12374058?
+Summarize daily SOFA scores for the first three days for patient id: 12374058
+patient id: 12374058
+patient id: 14256548
+patient id: 16874298
+Does patient id: 12374058 exhibit signs of sepsis?
+Is there evidence of acute respiratory distress syndrome for patient id: 12374058?
+Check for any mention of acute myocardial infarction in patient id: 12374058
+Provide a concise summary of patient id: 12374058’s ICU stay
+Summarize key events and interventions during the first 48 hours for patient id: 12374058
+Give me a narrative focusing on comorbidities and treatments for patient id: 12374058
+Extract heart rate, blood pressure, respiratory rate, temperature, and SpO2 on admission for patient id: 12374058
+List all SpO2 readings with timestamps from patient id: 12374058 record
+Report patient id: 12374058’s mean arterial pressure trend on day one
+Which lab values were most abnormal on admission for patient id: 12374058?
+List creatinine, BUN, and electrolytes with values and dates for patient id: 12374058
+Extract the first arterial blood gas result for patient id: 12374058
+What medications were started within 6 hours of ICU admission for patient id: 12374058?
+List all vasopressors and ventilator settings used for patient id: 12374058
+Describe the timing and dosing of antibiotic administration for patient id: 12374058
+List the top 3 differential diagnoses with rationale for patient id: 12374058
+What evidence in the note supports a diagnosis of sepsis for patient id: 12374058?
+Identify signs of acute kidney injury and explain your reasoning for patient id: 12374058
+Create a timeline of key events (intubation, dialysis, vasopressors) for patient id: 12374058
+How did lactate levels change over time for patient id: 12374058?
+Summarize daily SOFA scores for the first three days for patient id: 12374058
+patient id: 12374058
+patient id: 14256548
+patient id: 16874298
+Does patient id: 12374058 exhibit signs of sepsis?
+Is there evidence of acute respiratory distress syndrome for patient id: 12374058?
+Check for any mention of acute myocardial infarction in patient id: 12374058
+Provide a concise summary of patient id: 12374058’s ICU stay
+Summarize key events and interventions during the first 48 hours for patient id: 12374058
+Give me a narrative focusing on comorbidities and treatments for patient id: 12374058
+Extract heart rate, blood pressure, respiratory rate, temperature, and SpO2 on admission for patient id: 12374058
+List all SpO2 readings with timestamps from patient id: 12374058 record
+Report patient id: 12374058’s mean arterial pressure trend on day one
+Which lab values were most abnormal on admission for patient id: 12374058?
+List creatinine, BUN, and electrolytes with values and dates for patient id: 12374058
+Extract the first arterial blood gas result for patient id: 12374058
+What medications were started within 6 hours of ICU admission for patient id: 12374058?
+List all vasopressors and ventilator settings used for patient id: 12374058
+Describe the timing and dosing of antibiotic administration for patient id: 12374058
+List the top 3 differential diagnoses with rationale for patient id: 12374058
+What evidence in the note supports a diagnosis of sepsis for patient id: 12374058?
+Identify signs of acute kidney injury and explain your reasoning for patient id: 12374058
+Create a timeline of key events (intubation, dialysis, vasopressors) for patient id: 12374058
+How did lactate levels change over time for patient id: 12374058?
+Summarize daily SOFA scores for the first three days for patient id: 12374058
+patient id: 12374058
+patient id: 14256548
+patient id: 16874298
+Does patient id: 12374058 exhibit signs of sepsis?
+Is there evidence of acute respiratory distress syndrome for patient id: 12374058?
+Check for any mention of acute myocardial infarction in patient id: 12374058
+Provide a concise summary of patient id: 12374058’s ICU stay
+Summarize key events and interventions during the first 48 hours for patient id: 12374058
+Give me a narrative focusing on comorbidities and treatments for patient id: 12374058
+Extract heart rate, blood pressure, respiratory rate, temperature, and SpO2 on admission for patient id: 12374058
+List all SpO2 readings with timestamps from patient id: 12374058 record
+Report patient id: 12374058’s mean arterial pressure trend on day one
+Which lab values were most abnormal on admission for patient id: 12374058?
+List creatinine, BUN, and electrolytes with values and dates for patient id: 12374058
+Extract the first arterial blood gas result for patient id: 12374058
+What medications were started within 6 hours of ICU admission for patient id: 12374058?
+List all vasopressors and ventilator settings used for patient id: 12374058
+Describe the timing and dosing of antibiotic administration for patient id: 12374058
+List the top 3 differential diagnoses with rationale for patient id: 12374058
+What evidence in the note supports a diagnosis of sepsis for patient id: 12374058?
+Identify signs of acute kidney injury and explain your reasoning for patient id: 12374058
+Create a timeline of key events (intubation, dialysis, vasopressors) for patient id: 12374058
+How did lactate levels change over time for patient id: 12374058?
+Summarize daily SOFA scores for the first three days for patient id: 12374058

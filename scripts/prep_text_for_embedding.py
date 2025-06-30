@@ -1,23 +1,31 @@
+#!/usr/bin/env python3
 import pandas as pd
+from dateutil.relativedelta import relativedelta
 
-# Load merged hospital data (you already created this earlier)
+# Load merged hospital data (assumes this file already exists)
 merged_path = "data/processed/merged_hosp.csv.gz"
 df = pd.read_csv(merged_path)
 
-# Drop rows with missing hadm_id or subject_id just in case
+# Drop rows with missing hadm_id or subject_id
 df = df.dropna(subset=["subject_id", "hadm_id"])
 
 def build_summary(row):
+    # Parse raw datetimes and correct the year by subtracting 150 years
+    admit_raw = pd.to_datetime(row["admittime"])
+    disch_raw = pd.to_datetime(row["dischtime"])
+    admit = admit_raw - relativedelta(years=150)
+    disch = disch_raw - relativedelta(years=150)
+
     parts = [
-        f"Patient ID: {row['subject_id']}",
-        f"Age: {row['anchor_age']}",
+        f"Patient ID: {int(row['subject_id'])}",
+        f"Age: {int(row['anchor_age'])}",
         f"Gender: {row['gender']}",
         f"Admission Type: {row['admission_type']}",
-        f"Admission Time: {row['admittime']}",
-        f"Discharge Time: {row['dischtime']}",
+        f"Admission Time: {admit.strftime('%Y-%m-%d %H:%M:%S')}",
+        f"Discharge Time: {disch.strftime('%Y-%m-%d %H:%M:%S')}",
     ]
 
-    # Insert vital signs if available
+    # Vitals on admission, if available
     vitals = []
     if pd.notnull(row.get("heart_rate")):
         vitals.append(f"HR: {int(row['heart_rate'])} bpm")
@@ -33,10 +41,10 @@ def build_summary(row):
 
     return " | ".join(parts)
 
-# Create the text summary
+# Build the text_summary column
 df["text_summary"] = df.apply(build_summary, axis=1)
 
-# Save for embedding later
+# Save to CSV for later embedding
 output_path = "data/processed/text_summaries.csv.gz"
 df[["subject_id", "hadm_id", "text_summary"]].to_csv(output_path, index=False)
 

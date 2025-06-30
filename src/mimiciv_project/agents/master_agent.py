@@ -22,13 +22,17 @@ class MasterAgent:
         summary = self.summarizer.summarize(text_blob, query=query)
         print(summary)
 
-        # 3) Decide if we should skip diagnosis/scoring
+        # 3) Extraction‐only shortcuts
         ql = query.lower()
         extract_triggers = ["extract", "list", "report", "does patient id"]
         if any(qt in ql for qt in extract_triggers):
-            # Extraction‐only: skip diagnosis and scoring
             log_feedback(query, summary, None, None)
-            return {"summary": summary, "diagnoses": None, "feedback_score": None}
+            return {
+                "raw_records": records,
+                "summary": summary,
+                "diagnoses": None,
+                "feedback_score": None
+            }
 
         # 4) Diagnosis
         print("\n🩺 Suggesting possible diagnoses…")
@@ -41,7 +45,9 @@ class MasterAgent:
         # 6) Log feedback
         log_feedback(query, summary, diagnoses, feedback_score)
 
+        # ---- return everything, including raw_records ----
         return {
+            "raw_records":   records,
             "summary":       summary,
             "diagnoses":     diagnoses,
             "feedback_score": feedback_score

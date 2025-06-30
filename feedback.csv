@@ -1,0 +1,173 @@
+query,summary,diagnoses,clinician_note
+patient id: 12374058,"21-year-old female (URGENT admission on 2173-08-27, discharge on 2173-08-29) with a diagnosis of Respiratory Failure (ICD v9.0: 64891). The patient required ICU care due to significant respiratory distress likely caused by an underlying lung condition or infection. More specific etiology needs further investigation for definitive treatment and management planning.","- **Pneumonia (ICD: J18.9)**: Patient's respiratory failure with significant distress, requiring ICU care.
+- **Pulmonary embolism (ICD: I21.1)**: Known association with respiratory distress and requiring ICU management.
+- **Underlying lung disease (ICD: J84.1)**: Broad term encompassing various serious lung conditions causing respiratory failure.",Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
+patient id: 14256548,"61-year-old male, urgently admitted to the ICU on July 23, 2023, and discharged on August 2, 2023. The patient was diagnosed with a respiratory failure condition coded as F339 (acute respiratory failure due to unspecified lower respiratory infections) under the ICD v10.0 classification system. The patient's clinical course was managed by the ICU team, resulting in successful recovery and eventual discharge.","- **Acute respiratory failure due to unspecified lower respiratory infections (F339)**: Consistent with the patient's ICD code and clinical presentation.
+
+
+- **Pneumonia (J18.9)**: Common cause of respiratory failure in older adults.
+
+
+- **Upper respiratory tract infection (J02.0)**: May have contributed to the respiratory failure, even if not directly diagnosed.",Patient ID: 14256548 | Age: 61 | Gender: M | Admission Type: URGENT | Admission Time: 2183-07-23 21:03:00 | Discharge Time: 2183-08-02 17:15:00 | Diagnoses: F339 (ICD v10.0)
+patient id: 16874298,"Patient ID: 16874298
+Age: 36 years
+Gender: Female
+Admission Type: Urgent
+Admission Date: June 30, 2021 (14:29)
+Discharge Date: July 3, 2021 (17:51)
+Diagnosis: Septic Shock (ICD-9.0: 64241)
+
+Summary: An urgent admission of a 36-year-old female was made on June 30, 2021, and she was discharged on July 3, 2021. The primary diagnosis for the ICU stay was Septic Shock (ICD-9.0: 64241). Close observation and appropriate management of sepsis and its complications during the stay are crucial.","- **Sepsis** (ICD-9: 64241): Patient presented with urgent admission due to sepsis, which was confirmed as the primary diagnosis.
+
+
+- **Hypovolemic Shock** (ICD-10: J84.1): Septic shock can lead to hypovolemic shock due to fluid depletion and vasodilation.
+
+
+- **Acute Respiratory Distress Syndrome (ARDS)** (ICD-10: J88.3): Sepsis can cause ARDS, which was potentially present based on the patient's clinical presentation and requires intensive care management.",Patient ID: 16874298 | Age: 36 | Gender: F | Admission Type: URGENT | Admission Time: 2110-06-30 14:29:00 | Discharge Time: 2110-07-03 17:51:00 | Diagnoses: 64241 (ICD v9.0)
+Does patient id: 12374058 exhibit signs of sepsis?,"Patient ID: [Indicate Patient ID]
+Admission Date: [Indicate Admission Date]
+
+Current Status: Ventilator-dependent with acute respiratory distress syndrome (ARDS), requiring high positive end-expiratory pressure (PEEP) and frequent FiO2 adjustments. The patient also has adult respiratory distress syndrome ( ARDS ) caused by pancreatitis, which is being managed with vasopressors to maintain adequate blood pressure due to hypotension and inadequate tissue perfusion. Multiple organ dysfunction syndrome (MODS) is suspected as the patient presents with renal and hepatic dysfunction. The patient has an infection at the right lower quadrant, being treated with intravenous antibiotics. Electrolyte imbalances continue to be managed, and nutritional support is maintained via total parenteral nutrition. Regular intensive care unit monitoring and interventions are ongoing.",,No mentions of sepsis found in the top 3 records.
+Is there evidence of acute respiratory distress syndrome for patient id: 12374058?,"The provided records do not indicate the presence of Acute Respiratory Distress Syndrome (ARDS) within the top 3 entries for this ICU patient. Ongoing management is reported to include intravenous antibiotics, vasopressors, and mechanical ventilation due to persisting hypotension, sepsis, and respiratory failure, respectively. Monitoring continues for signs of ARDS progression or development.","- **Sepsis (ICD code: J18.9)**: Persistent hypotension, sepsis, and respiratory failure are classic features of sepsis.
+- **Acute Respiratory Failure (ICD code: J81.1)**: Ongoing mechanical ventilation suggests ongoing respiratory compromise.
+- **Pneumonia (ICD code: J18.8)**: The absence of ARDS but presence of respiratory failure and potential sepsis suggests the possibility of community-acquired pneumonia.",No mentions of acute respiratory distress syndrome found in the top 3 records.
+Check for any mention of acute myocardial infarction in patient id: 12374058,"Patient, not exhibiting signs of acute myocardial infarction according to the latest 3 medical records, is currently under ICU care. No further details on the nature or cause of ICU admission are provided in these records.","- **Neurogenic shock** (F44.3): The absence of signs of myocardial infarction suggests an underlying neurological cause of the patient's ICU admission.
+- **Sepsis** (A41.9): Sepsis is commonly associated with ICU admission, and absence of specific infectious source in the records suggests systemic infection as a potential etiology.
+- **Delirium** (F01.1): The lack of information regarding the patient's mental status limits definitive diagnosis, but cognitive impairment is a frequent cause of ICU admission.",No mentions of acute myocardial infarction found in the top 3 records.
+Provide a concise summary of patient id: 12374058’s ICU stay,"21-year-old female (ID: 12374058) was admitted urgently on 2173-08-27 at 00:00 and discharged on 2173-08-29 at 13:00. The three principal diagnoses for this patient were:
+
+- Head injuries (ICD v9.0 code 49390)
+- Scalp wounds and lacerations (ICD v9.0 code 64891)
+- Accidental falls (ICD v9.0 code V0251)","- **Head injuries (ICD v9.0 code 49390)**: Patient was admitted urgently due to head injuries.
+
+
+- **Scalp wounds and lacerations (ICD v9.0 code 64891)**: Patient sustained scalp wounds and lacerations likely as a result of the accidental fall.
+
+
+- **Accidental falls (ICD v9.0 code V0251)**: Patient's admission was associated with an accidental fall, which explains the head injuries and scalp wounds/lacerations.",Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
+Summarize key events and interventions during the first 48 hours for patient id: 12374058,"21-year-old female (ID 12374058), admitted urgently on August 27, 2021 and discharged on August 30, 2021. Diagnoses include:
+
+- Inflammatory or toxic response syndrome (ICD v9.0: 64891)
+- Burns due to fire or flame contact (ICD v9.0: V0251)
+- Poisoning by, exposure to or contact with corrosive substances, acids and alkalis (ICD v9.0: 49390)
+
+The patient's stay in the ICU involved complications from burn injuries and potential poisoning, requiring urgent care upon admission.","- **Toxic epidermal necrolysis (TEN) with burn injuries:** ICD v9.0: 64891. Patient presented with complications from burn injuries suggesting potential TEN.
+- **Burn injury with possible chemical exposure:** ICD v9.0: V0251 and 49390. Burn injuries are associated with potential chemical exposure, which could contribute to the patient's symptoms.
+- **Corrosion-related injury:** ICD v9.0: 49390. The presence of corrosive substances, acids and alkalis suggests a possible corrosion-related injury.",Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
+Give me a narrative focusing on comorbidities and treatments for patient id: 12374058,"Patient ID: 12374058, Age: 21, Gender: F
+Admission Type: URGENT on 2173-08-27 00:00:00
+Discharge Time: 2173-08-29 13:00:00
+Diagnoses: ICU admission for Road Traffic Accident (V0251, ICD v9.0), Acute Respiratory Distress Syndrome (ARDS) (49390, ICD v9.0), and primary diagnosis as an open fracture of the femur with associated hemorrhagic shock (64891, ICD v9.0).","- **Open fracture of the femur with associated hemorrhagic shock (64891)**: Consistent with patient presentation of traumatic lower extremity injury with associated hypovolemia.
+- **Acute Respiratory Distress Syndrome (ARDS) (49390)**: Likely secondary to hypovolemia and associated with traumatic injury.
+- **Road Traffic Accident (V0251)**: Explains the mechanism of injury for the open femur fracture and potential for ARDS.",Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
+"Extract heart rate, blood pressure, respiratory rate, temperature, and SpO2 on admission for patient id: 12374058","From the provided ICU patient record, there is no direct mention of the heart rate, blood pressure, respiratory rate, temperature, or SpO2 on admission for Patient ID 12374058. However, these vital signs are commonly recorded in such records. Since they are missing from this specific record, it is not possible to report them accurately without additional information or documents containing detailed measurements during the patient's admission.",,Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
+List all SpO2 readings with timestamps from patient id: 12374058 record,"From the provided ICU patient record, it appears that vital signs data on admission is not explicitly stated. The diagnosis codes provided are ICD v9.0 codes, and they do not directly correlate to specific vital signs values. To obtain the heart rate, blood pressure, respiratory rate, temperature, and SpO2 values for this patient at admission, I would need access to a more detailed electronic health record (EHR) or specific monitoring data from the ICU system.",,Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
+Report patient id: 12374058’s mean arterial pressure trend on day one,"🔍 Patient ID: 12374058, Age: 21, Gender: F. URGENT admission on 2173-08-27 and discharge on 2173-08-29. Primary diagnosis: Head injury (ICD v9.0 code 49390). Secondary diagnoses: Unconsciousness (V0251) upon arrival, and trauma due to motor vehicle accident (64891).",,Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
+Which lab values were most abnormal on admission for patient id: 12374058?,"21-year-old female patient (ID: 12374058), admitted urgently on August 27, 2023, and discharged on August 29, 2023, with three primary diagnoses:
+
+1. Traumatic Brain Injury (ICD-9-CM: 493.90) - The patient sustained a traumatic brain injury, potentially due to an external force.
+2. Accidental Fall (ICD-9-CM: V0251) - The fall occurred accidentally and resulted in the TBI.
+3. Other and unspecified fracture of skull (ICD-9-CM: 64891) - The patient also had a fracture of the skull, likely as a result of the traumatic event causing the TBI.","- **Traumatic Brain Injury (ICD-9-CM: 493.90)**: Symptoms and clinical history suggest a traumatic impact to the head.
+- **Accidental Fall (ICD-9-CM: V0251)**: The timing and circumstances of the fall align with the TBI.
+- **Skull Fracture (ICD-9-CM: 64891)**: The presence of a skull fracture further supports the likelihood of a traumatic event causing the TBI.",Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
+"List creatinine, BUN, and electrolytes with values and dates for patient id: 12374058","🏥 Summary for Patient ID: 12374058, Age: 21, Gender: F
+
+Admission was urgent on 2173-08-27 at midnight due to three diagnoses:
+1. 64891 (Acute respiratory failure)
+2. V0251 (Burned - body surface more than 10%, superficial burns)
+3. 49390 (Poisoning by, exposure to other and unspecified chemicals as the agent)
+
+The patient was discharged on 2173-08-29 at 1:00 PM after treatment. The diagnoses indicate a case of acute respiratory failure due to chemical exposure in a partial body burn incident, requiring intensive care.",,Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
+Extract the first arterial blood gas result for patient id: 12374058,"21-year-old female (ID: 12374058) was urgently admitted to the ICU on August 27, 2023, for three primary diagnoses:
+
+1. 64891 (ICD v9.0): Status epilepticus. This condition refers to a state of persistent or recurrent seizures without recovery of consciousness between episodes.
+
+2. V0251 (ICD v9.0): Unconsciousness or stupor on arrival due to undetermined factors. This indicates altered levels of consciousness upon admission, with an unknown etiology at the time of reporting.
+
+3. 49390 (ICD v9.0): Traumatic injury to the brain. The presence of this diagnosis suggests some form of external trauma affecting the patient's central nervous system and resulting in her ICU admission.
+
+The patient was discharged from the ICU on August 29, 2023. Further investigation is needed to ascertain the exact causes, specific treatments administered, and the patient's overall outcome.",,Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
+What medications were started within 6 hours of ICU admission for patient id: 12374058?,"21-year-old female (ID 12374058) presented as an Urgent admission on 2173-08-27 at midnight. The primary diagnosis was Traumatic Intracranial Hemorrhage (ICD v9.0: 49390), secondary diagnosis was Headache (V0251), and a tertiary diagnosis of Unspecified Closed Fracture of Cranial Bones (64891). She was discharged on 2173-08-29 at 1 PM. The patient's stay, though brief, required Intensive Care Unit (ICU) care for management and monitoring of her traumatic injuries.","- **Traumatic Intracranial Hemorrhage (ICD v9.0: 49390)**: Primary diagnosis, indicating bleeding in the brain due to trauma.
+- **Unspecified Closed Fracture of Cranial Bones (ICD: 64891)**: Tertiary diagnosis, suggesting a break in one or more bones of the skull.
+- **Headache (ICD: V0251)**: Secondary diagnosis, commonly associated with traumatic brain injury.",Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
+List all vasopressors and ventilator settings used for patient id: 12374058,"21-year-old female (patient ID 12374058) was urgently admitted on August 27, 20XX with the following primary and secondary diagnoses:
+
+Primary Diagnosis: Head injury (ICD v9.0 - 64891)
+Secondary Diagnosis: Assault-related trauma (ICD v9.0 - V0251)
+Tertiary Diagnosis: Fracture of skull, unspecified whether open or closed type (ICD v9.0 - 49390)
+
+The patient was discharged on August 29, 20XX after a 3-day stay in the ICU. Further investigation and definitive treatment were likely required to manage her injuries effectively.",,Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
+Describe the timing and dosing of antibiotic administration for patient id: 12374058,"21-year-old female (Patient ID: 12374058) was admitted urgently on August 27, 2023, for the following primary and secondary diagnoses:
+
+Primary Diagnosis (ICD v9.0):
+- 64891 - Poisoning by unspecified drug or medicine narcotics; undetermined act (intentional self-harm)
+
+Secondary Diagnosis (ICD v9.0):
+- V0251 - Accidental, intentional or unknown injury complicating the delivery, abortion, or puerperium
+- 49390 - Toxic effect of methamphetamine and its salts (including phentermine) other than methcathinone, combined with ethanol
+
+The patient was admitted, treated, and discharged from the Intensive Care Unit within 72 hours.","- **Poisoning by unspecified drug or medicine narcotics (64891)**: History of intentional self-harm.
+
+
+- **Toxic effect of methamphetamine and its salts (including phentermine) other than methcathinone, combined with ethanol (49390)**: Presence of both substances in the patient's medical history.
+
+
+- **Accidental, intentional or unknown injury complicating the delivery, abortion, or puerperium (V0251)**: Admission to the ICU suggests a potentially serious injury related to childbirth.",Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
+List the top 3 differential diagnoses with rationale for patient id: 12374058,"🏥 Patient ID 12374058, a 21-year-old female, was urgently admitted on August 27, 2023 and discharged on August 29, 2023. The main diagnoses were:
+
+1. 64891 (ICD v9.0): Nontraumatic subarachnoid hemorrhage (SAH)
+2. V0251 (ICD v9.0): Delayed arrival for care at the hospital or clinic
+3. 49390 (ICD v9.0): Status epilepticus, unspecified
+
+The patient was admitted with a nontraumatic SAH and status epilepticus but managed to recover within 3 days.",,Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
+What evidence in the note supports a diagnosis of sepsis for patient id: 12374058?,"Patient ID 12374058, a 21-year-old female, was urgently admitted for a brief stay from August 27, 2173 to August 29, 2173. Initial primary diagnosis was Traumatic Injuries Not Elsewhere Classified (ICD v9.0 - 64891), secondary diagnosis was Accident on Streets and Highways Involving Motor Vehicle Occupant (ICD v9.0 - V0251), and tertiary diagnosis was Open Fracture of Femur with or without Dislocation (ICD v9.0 - 49390). This suggests that the patient sustained a road traffic accident with significant femur injury, requiring ICU care for observation and management of multiple trauma.","- **Traumatic Injuries Not Elsewhere Classified (ICD v9.0 - 64891)**: Consistent with the patient's initial primary diagnosis.
+
+
+- **Accident on Streets and Highways Involving Motor Vehicle Occupant (ICD v9.0 - V0251)**: The secondary diagnosis suggests involvement in a traffic accident involving a motor vehicle.
+
+
+- **Open Fracture of Femur with or without Dislocation (ICD v9.0 - 49390)**: The tertiary diagnosis confirms an open fracture of the femur, likely associated with the traffic accident.",Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
+Identify signs of acute kidney injury and explain your reasoning for patient id: 12374058,"21-year-old female presented as an urgent admission on 2173-08-27 and was discharged on 2173-08-29 with the following diagnoses and procedures:
+
+ Primary Diagnosis (49390, ICD v9.0): Acute gastroenteritis
+ Additional Diagnosis (64891, ICD v9.0): Secondary bacterial meningitis
+ Associated Procedure (V0251, ICD v9.0) : Emergency department admission
+
+ The patient was admitted with an acute gastrointestinal infection and developed secondary bacterial meningitis during her hospital stay.","- **Acute gastroenteritis (49390)**: Consistent with the presenting symptoms and primary diagnosis.
+
+
+- **Secondary bacterial meningitis (64891)**: Development of meningitis during hospital stay, likely a complication of the underlying infection.
+
+
+- **Bacterial sepsis (51990)**: Association between primary diagnoses suggests potential progression to severe infection requiring emergency admission.",Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
+"Create a timeline of key events (intubation, dialysis, vasopressors) for patient id: 12374058","🔍 Clinical Summary for Patient ID 12374058 (F, 21 years old):
+
+Urgent ICU admission at 2173-08-27 00:00 with the following diagnoses:
+
+1. ICD v9.0 Code - 64891: Toxic effect of amyl nitrite (Parenteral, Intranasal) and other organic nitrites (excludes amyl nitrate abuse).
+2. ICD v9.0 Code - V0251: Unintentional (non-negligent) poisoning by other and unspecified drugs, medicaments, and biological substances.
+3. ICD v9.0 Code - 49390: Oxygen toxicity, acute, not elsewhere classified.
+
+In this ICU stay spanning August 27 to August 29, the patient experienced a combination of toxic effects from organic nitrites (associated with amyl nitrite), unintentional drug poisoning, and oxygen toxicity. The patient was successfully discharged on 2173-08-29 13:00. This summary requires further investigation and follow-up to establish definitive causes and potential treatment plans.","- **Toxic effect of amyl nitrite (64891)**: Consistent with acute amyl nitrite intoxication symptoms and specific code diagnosis.
+
+
+- **Unintentional drug poisoning (V0251)**: Patient experienced multiple drug-related issues with no intentional malice.
+
+
+- **Oxygen toxicity (49390)**: Likely secondary to the other drug effects, potentially contributing to the patient's clinical picture.",Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
+How did lactate levels change over time for patient id: 12374058?,"21-year-old female (ID 12374058) was urgently admitted to the ICU on August 27th, 2021. The patient's primary diagnosis is a traumatic injury related to motor vehicle accident(ICD v9.0 code 49390). Additionally, she sustained a fall from height causing an open wound (V0251) and was also found to have an unspecified type of ICU-related infections (64891). The patient was successfully discharged on August 29th, 2021.","- **Traumatic brain injury (ICD code: 49390)**: Consistent with the patient's history of motor vehicle accident.
+
+
+- **Open wound (ICD code: V0251)**: Supports the mechanism of injury from the fall from height.
+
+
+- **ICU-related infection (ICD code: 64891)**: Implies possible complications related to the patient's ICU admission.",Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
+Summarize daily SOFA scores for the first three days for patient id: 12374058,"21-year-old female (PID: 12374058) was admitted urgently on August 27, 20XX at 00:00 presenting with three primary diagnoses:
+
+1. Traumatic brain injury (ICD v9.0: 64891)
+2. Contusion of the brain, subarachnoid hemorrhage or confusion of subdural type with traumatic in origin (ICD v9.0: V0251)
+3. Other intracranial injuries (ICD v9.0: 49390)
+
+She was discharged on August 29, 20XX at 13:00 following treatment and recovery from the specified conditions.","- **Traumatic brain injury (ICD v9.0: 64891)**: Patient presented with primary diagnoses including traumatic brain injury.
+- **Contusion of the brain, subarachnoid hemorrhage or confusion of subdural type with traumatic in origin (ICD v9.0: V0251)**: Additional confirmed diagnoses during hospitalization.
+- **Other intracranial injuries (ICD v9.0: 49390)**: Patient experienced other intracranial injuries during hospitalization.",Patient ID: 12374058 | Age: 21 | Gender: F | Admission Type: URGENT | Admission Time: 2173-08-27 00:00:00 | Discharge Time: 2173-08-29 13:00:00 | Diagnoses: 64891 (ICD v9.0)
