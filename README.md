@@ -3,6 +3,8 @@ Clinical Q&A with lightweight LLMs
 
 This repository contains the implementation of our study titled **"No cloud, no problem: secure and explainable offline AI agents for clinical Q\&A with lightweight LLMs"**.
 
+Accepted for Oral Presentation at [IUPESM World Congress on Medical Physics and Biomedical Engineering 2025](https://wc2025.org/)
+
 ![Abstract](MIMIC-IV.jpg)
 
 ## Authors
@@ -31,8 +33,6 @@ If you use this work, please cite it as:
 }
 
 
-
-
 # mimiciv_project
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -56,31 +56,6 @@ pip install -e .
 
 🖥️ Usage
 mimiciv-cli "elderly patient with chest pain and cough" -k 3
-
-Python API
-from mimiciv_project.agents.master_agent import MasterAgent
-
-agent = MasterAgent()
-out = agent.handle_query("ICU patient with sepsis and hypotension", top_k=2)
-print("Summary:",        out["summary"])
-print("Diagnoses:",      out["diagnoses"])
-print("Feedback Score:", out["feedback_score"])
-
-📂 Project Structure
-mimiciv_project/
-├── src/mimiciv_project/
-│   ├── agents/              # Retrieval, Summarization, Diagnosis, MasterAgent
-│   ├── utils/               # scoring_utils, feedback_logger, etc.
-│   └── cli.py               # `mimiciv-cli` entrypoint
-├── data/
-│   ├── raw/                 # original MIMIC-IV CSVs
-│   └── processed/           # summaries, embeddings, FAISS index
-├── scripts/                 # ETL & embedding-generation scripts
-├── notebooks/               # profiling & demo notebooks
-├── tests/                   # pytest unit tests
-├── requirements.txt
-├── pyproject.toml
-└── README.md
 
 ⸻
 © 2025 Ali Salman · MIT License
