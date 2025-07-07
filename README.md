@@ -22,7 +22,7 @@ The advancement of artificial intelligence (AI)–driven clinical decision suppo
 If you use this work, please cite it as:
 
 ```bibtex
-@misc{salman2025BRSET_DR,
+@misc{salman2025mimiciv,
   author       = {Ali Salman and Giuseppe Fico and Ernesto Iadanza},
   title        = {No cloud, no problem: secure and explainable offline AI agents for clinical Q\&A with lightweight LLMs},
   year         = {2025},
