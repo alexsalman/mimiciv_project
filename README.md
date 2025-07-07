@@ -82,41 +82,5 @@ mimiciv_project/
 ├── pyproject.toml
 └── README.md
 
-✔️ Completed Tasks
-	•	Data acquisition
-Downloaded MIMIC-IV v3.1 full dataset (credentialed PhysioNet access).
-	•	Raw data inspection & exploration
-• patients.csv.gz, admissions.csv.gz, diagnoses_icd.csv.gz (hosp)
-• icustays.csv.gz, chartevents.csv.gz (icu)
-	•	Merging & preview
-Joined patients + icustays on subject_id; mapped key itemid labels.
-	•	Text-summary preparation
-Built per-admission summaries → data/processed/text_summaries.csv.gz.
-	•	Embedding generation
-Encoded summaries with SentenceTransformer → data/processed/patient_embeddings.npy.
-	•	FAISS index building
-Created & saved data/processed/patient_index.faiss for nearest-neighbor retrieval.
-	•	Retrieval Agent
-Wrapped FAISS lookup (and patient-ID override) in src/mimiciv_project/agents/retrieval_agent.py.
-	•	Summarization Agent
-HTTP-based Ollama/Mistral client in src/mimiciv_project/agents/summarization_agent.py.
-	•	Diagnosis Agent
-HTTP-based Ollama/Gemma client in src/mimiciv_project/agents/diagnosis_agent.py.
-	•	Composite Feedback Scoring
-Keyword & acronym-based rubric in src/mimiciv_project/utils/scoring_utils.py.
-	•	MasterAgent Orchestration
-src/mimiciv_project/agents/master_agent.py tying retrieval → summarization → diagnosis → scoring.
-	•	CLI Demo
-src/mimiciv_project/cli.py for offline querying (mimiciv-cli "<prompt>" -k N).
-	•	Notebook Demo & Profiling
-Jupyter notebooks measuring runtimes and plotting stage breakdowns.
-
-🎯 Next Steps
-	1.	Enhance feedback-scorer with clinician-validated weights
-	2.	Add direct patient-ID lookup workflow in MasterAgent
-	3.	Build a lightweight GUI for interactive clinical use
-	4.	Fine-tune LLMs on medical-specific corpora
-	5.	Prepare conference submission manuscript
-
 ⸻
 © 2025 Ali Salman · MIT License
